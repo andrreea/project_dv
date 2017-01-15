@@ -16,6 +16,7 @@ Optional - ruleaza pentru preluare modificarilor din fisier - typescript este co
 ,,,
 npm run build
 npm run buildwatch
+./node_modules/.bin/webpack --watch
 ,,,
 
 Optional - ruleaza pentru preluare modificarilor din fisier - compilare css
