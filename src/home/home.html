@@ -2,6 +2,18 @@
     .main-area {
         height: 900px;
     }
+    .bar {
+        stroke: none;
+        opacity: 0.7;
+        fill-opacity: 0.7;
+
+    }
+
+    .bar .active{
+         opacity: 1 !important;
+         fill-opacity: 1 !important;
+     }
+
 </style>
 <section class="main-area">
     <md-sidenav-layout class="sidenav-layout" style="height:800px">
@@ -20,6 +32,7 @@
             </button>
             <div class="panel-contents">
                 Something in here
+
             </div>
 
         </md-sidenav>
@@ -31,6 +44,9 @@
                 <md-icon class="md2 md-icon material-icons"> menu </md-icon>
             </button>
             something
+            <charts [data]="inputData">
+            </charts>
+
         </div>
     </md-sidenav-layout>
 </section>

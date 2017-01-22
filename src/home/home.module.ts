@@ -3,6 +3,8 @@ import {MaterialModule} from '@angular/material';
 import {CommonModule} from '@angular/common';
 import {FormsModule} from '@angular/forms';
 import {HomeComponent} from "./home.component";
+// import {NgxChartsModule} from "ngx-charts";
+import {ChartsModule} from "../charts/charts.module";
 
 @NgModule({
     declarations: [HomeComponent],
@@ -11,7 +13,9 @@ import {HomeComponent} from "./home.component";
     imports: [
         CommonModule,
         FormsModule,
-        MaterialModule
+        MaterialModule,
+        // NgxChartsModule
+        ChartsModule
     ]
 })
 export class HomeModule {
