@@ -19,6 +19,11 @@ npm run buildwatch
 ./node_modules/.bin/webpack --watch
 ,,,
 
+build distribution
+```
+npm run builddist
+```
+
 Optional - ruleaza pentru preluare modificarilor din fisier - compilare css
 ------------------------------------------------------------------------
 ,,,

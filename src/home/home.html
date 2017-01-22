@@ -1,13 +1,36 @@
+<style>
+    .main-area {
+        height: 900px;
+    }
+</style>
 <section class="main-area">
-    <md-sidenav-layout class="sidenav-layout">
+    <md-sidenav-layout class="sidenav-layout" style="height:800px">
         <md-sidenav #left [opened]="true" mode="side" style="width: 600px;">
-            Something in here
+            <button md-icon-button (click)="left.close()" class="close">
+                <md-icon class="md2 md-icon material-icons"> cancel </md-icon>
+            </button>
+            <div class="panel-contents margin-bottom-10">
+                Something in here
+            </div>
         </md-sidenav>
+
         <md-sidenav #right align="end">
+            <button md-icon-button (click)="right.close()" class="md-24 close">
+                <md-icon class="md2 md-icon material-icons"> cancel </md-icon>
+            </button>
+            <div class="panel-contents">
+                Something in here
+            </div>
 
         </md-sidenav>
         <div class="sidenav-content">
+            <button md-icon-button
+                    *ngIf="!left.opened"
+                    title ="Expand"
+                    (click)="left.toggle()">
+                <md-icon class="md2 md-icon material-icons"> menu </md-icon>
+            </button>
             something
-            </div>
+        </div>
     </md-sidenav-layout>
 </section>
