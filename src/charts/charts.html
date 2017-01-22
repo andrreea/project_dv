@@ -10,3 +10,16 @@
         [showYAxisLabel]="false"
         (select)="selectBar($event)">
 </ngx-charts-bar-horizontal>
+<ngx-charts-line-chart
+        [view]="chartSize"
+        [scheme]="colorSchemeLine"
+        [results]="dataLine"
+        [gradient]="false"
+        [xAxis]="showXAxis"
+        [yAxis]="showYAxis"
+        [legend]="true"
+        [showXAxisLabel]="false"
+        [showYAxisLabel]="false"
+        [autoScale]="autoScale"
+        (select)="selectLine($event)">
+</ngx-charts-line-chart>

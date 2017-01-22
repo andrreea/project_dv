@@ -13,6 +13,11 @@ export interface ChartBarDataItem {
     selected?: boolean;
 }
 
+export interface ChartLineDataItem {
+    name: string;
+    series: any;
+}
+
 const BAR_SELECTOR = "bar";
 
 @Component({
@@ -22,6 +27,7 @@ const BAR_SELECTOR = "bar";
 })
 export class ChartsComponent implements OnInit {
     @Input() data: ChartBarDataItem[];
+    @Input() dataLine: ChartLineDataItem[];
     // @Output() seriesSelectionChange: EventEmitter<ChartBarDataItem[]>= new EventEmitter<ChartBarDataItem[]>();
 
     chartSize: any[] = [500, 250];
@@ -31,6 +37,11 @@ export class ChartsComponent implements OnInit {
         domain: ["#5AA454"]
     };
     activeEntries: ChartBarDataItem [] = [];
+
+    colorSchemeLine = {
+        domain: ['#5AA454', '#A10A28', '#C7B42C', '#AAAAAA']
+    };
+    autoScale = true;
 
     constructor(@Inject(Renderer) private renderer,
                 @Inject(ElementRef) private element){
@@ -46,7 +57,13 @@ export class ChartsComponent implements OnInit {
         })
     }
 
-    selectBar (item: ChartBarDataItem) {
+    selectLine(item: ChartLineDataItem) {
+
+        console.log(item);
+    }
+
+
+    selectBar(item: ChartBarDataItem) {
         let modified = [];
 
         console.log(item);
