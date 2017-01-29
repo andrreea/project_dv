@@ -13,8 +13,12 @@
          opacity: 1 !important;
          fill-opacity: 1 !important;
      }
+    .network-container {
+        height: 100%;
+    }
 
 </style>
+
 <section class="main-area">
     <md-sidenav-layout class="sidenav-layout" style="height:800px">
         <md-sidenav #left [opened]="true" mode="side" style="width: 600px;">
@@ -23,6 +27,17 @@
             </button>
             <div class="panel-contents margin-bottom-10">
                 Something in here
+
+                <!--<network [networkData]="networkData"-->
+                <!--(nodeContextMenuShow)="showNodeContextMenu($vent)"-->
+                <!--class="network-container">-->
+
+                <!--</network>-->
+
+                <network [networkData]="networkData"
+                class="network-container">
+                </network>
+
             </div>
         </md-sidenav>
 
@@ -47,6 +62,7 @@
             <charts [data]="inputData"
                     [dataLine]="lineData">
             </charts>
+
 
         </div>
     </md-sidenav-layout>

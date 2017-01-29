@@ -1,0 +1,3246 @@
+/**
+ * Retrieves a color value from the $material-colors Sass map
+ * Inspired by https://github.com/nilskaspersson/Google-Material-UI-Color-Palette/
+ *
+ * @function
+ * @param {string} color-name             - quoted, lower-case, dasherized color
+ *                                          name (e.g. 'pink', 'amber')
+ * @param {string} [color-variant='500']  - quoted, lowercase color variant (e.g.
+ *                                          '200', 'a100')
+ */
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-red-50 {
+  color: #ffebee;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-red-50 {
+  background-color: #ffebee;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-red-100 {
+  color: #ffcdd2;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-red-100 {
+  background-color: #ffcdd2;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-red-200 {
+  color: #ef9a9a;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-red-200 {
+  background-color: #ef9a9a;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-red-300 {
+  color: #e57373;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-red-300 {
+  background-color: #e57373;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-red-400 {
+  color: #ef5350;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-red-400 {
+  background-color: #ef5350;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-red-500 {
+  color: #f44336;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-red-500 {
+  background-color: #f44336;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-red-600 {
+  color: #e53935;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-red-600 {
+  background-color: #e53935;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-red-700 {
+  color: #d32f2f;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-red-700 {
+  background-color: #d32f2f;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-red-800 {
+  color: #c62828;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-red-800 {
+  background-color: #c62828;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-red-900 {
+  color: #b71c1c;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-red-900 {
+  background-color: #b71c1c;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-red-a100 {
+  color: #ff8a80;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-red-a100 {
+  background-color: #ff8a80;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-red-a200 {
+  color: #ff5252;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-red-a200 {
+  background-color: #ff5252;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-red-a400 {
+  color: #ff1744;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-red-a400 {
+  background-color: #ff1744;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-red-a700 {
+  color: #d50000;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-red-a700 {
+  background-color: #d50000;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-pink-50 {
+  color: #fce4ec;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-pink-50 {
+  background-color: #fce4ec;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-pink-100 {
+  color: #f8bbd0;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-pink-100 {
+  background-color: #f8bbd0;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-pink-200 {
+  color: #f48fb1;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-pink-200 {
+  background-color: #f48fb1;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-pink-300 {
+  color: #f06292;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-pink-300 {
+  background-color: #f06292;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-pink-400 {
+  color: #ec407a;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-pink-400 {
+  background-color: #ec407a;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-pink-500 {
+  color: #e91e63;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-pink-500 {
+  background-color: #e91e63;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-pink-600 {
+  color: #d81b60;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-pink-600 {
+  background-color: #d81b60;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-pink-700 {
+  color: #c2185b;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-pink-700 {
+  background-color: #c2185b;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-pink-800 {
+  color: #ad1457;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-pink-800 {
+  background-color: #ad1457;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-pink-900 {
+  color: #880e4f;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-pink-900 {
+  background-color: #880e4f;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-pink-a100 {
+  color: #ff80ab;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-pink-a100 {
+  background-color: #ff80ab;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-pink-a200 {
+  color: #ff4081;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-pink-a200 {
+  background-color: #ff4081;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-pink-a400 {
+  color: #f50057;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-pink-a400 {
+  background-color: #f50057;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-pink-a700 {
+  color: #c51162;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-pink-a700 {
+  background-color: #c51162;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-purple-50 {
+  color: #f3e5f5;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-purple-50 {
+  background-color: #f3e5f5;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-purple-100 {
+  color: #e1bee7;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-purple-100 {
+  background-color: #e1bee7;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-purple-200 {
+  color: #ce93d8;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-purple-200 {
+  background-color: #ce93d8;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-purple-300 {
+  color: #ba68c8;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-purple-300 {
+  background-color: #ba68c8;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-purple-400 {
+  color: #ab47bc;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-purple-400 {
+  background-color: #ab47bc;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-purple-500 {
+  color: #9c27b0;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-purple-500 {
+  background-color: #9c27b0;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-purple-600 {
+  color: #8e24aa;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-purple-600 {
+  background-color: #8e24aa;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-purple-700 {
+  color: #7b1fa2;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-purple-700 {
+  background-color: #7b1fa2;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-purple-800 {
+  color: #6a1b9a;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-purple-800 {
+  background-color: #6a1b9a;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-purple-900 {
+  color: #4a148c;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-purple-900 {
+  background-color: #4a148c;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-purple-a100 {
+  color: #ea80fc;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-purple-a100 {
+  background-color: #ea80fc;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-purple-a200 {
+  color: #e040fb;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-purple-a200 {
+  background-color: #e040fb;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-purple-a400 {
+  color: #d500f9;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-purple-a400 {
+  background-color: #d500f9;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-purple-a700 {
+  color: #aa00ff;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-purple-a700 {
+  background-color: #aa00ff;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-deep-purple-50 {
+  color: #ede7f6;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-deep-purple-50 {
+  background-color: #ede7f6;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-deep-purple-100 {
+  color: #d1c4e9;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-deep-purple-100 {
+  background-color: #d1c4e9;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-deep-purple-200 {
+  color: #b39ddb;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-deep-purple-200 {
+  background-color: #b39ddb;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-deep-purple-300 {
+  color: #9575cd;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-deep-purple-300 {
+  background-color: #9575cd;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-deep-purple-400 {
+  color: #7e57c2;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-deep-purple-400 {
+  background-color: #7e57c2;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-deep-purple-500 {
+  color: #673ab7;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-deep-purple-500 {
+  background-color: #673ab7;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-deep-purple-600 {
+  color: #5e35b1;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-deep-purple-600 {
+  background-color: #5e35b1;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-deep-purple-700 {
+  color: #512da8;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-deep-purple-700 {
+  background-color: #512da8;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-deep-purple-800 {
+  color: #4527a0;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-deep-purple-800 {
+  background-color: #4527a0;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-deep-purple-900 {
+  color: #311b92;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-deep-purple-900 {
+  background-color: #311b92;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-deep-purple-a100 {
+  color: #b388ff;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-deep-purple-a100 {
+  background-color: #b388ff;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-deep-purple-a200 {
+  color: #7c4dff;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-deep-purple-a200 {
+  background-color: #7c4dff;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-deep-purple-a400 {
+  color: #651fff;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-deep-purple-a400 {
+  background-color: #651fff;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-deep-purple-a700 {
+  color: #6200ea;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-deep-purple-a700 {
+  background-color: #6200ea;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-indigo-50 {
+  color: #e8eaf6;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-indigo-50 {
+  background-color: #e8eaf6;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-indigo-100 {
+  color: #c5cae9;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-indigo-100 {
+  background-color: #c5cae9;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-indigo-200 {
+  color: #9fa8da;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-indigo-200 {
+  background-color: #9fa8da;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-indigo-300 {
+  color: #7986cb;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-indigo-300 {
+  background-color: #7986cb;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-indigo-400 {
+  color: #5c6bc0;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-indigo-400 {
+  background-color: #5c6bc0;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-indigo-500 {
+  color: #3f51b5;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-indigo-500 {
+  background-color: #3f51b5;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-indigo-600 {
+  color: #3949ab;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-indigo-600 {
+  background-color: #3949ab;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-indigo-700 {
+  color: #303f9f;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-indigo-700 {
+  background-color: #303f9f;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-indigo-800 {
+  color: #283593;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-indigo-800 {
+  background-color: #283593;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-indigo-900 {
+  color: #1a237e;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-indigo-900 {
+  background-color: #1a237e;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-indigo-a100 {
+  color: #8c9eff;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-indigo-a100 {
+  background-color: #8c9eff;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-indigo-a200 {
+  color: #536dfe;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-indigo-a200 {
+  background-color: #536dfe;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-indigo-a400 {
+  color: #3d5afe;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-indigo-a400 {
+  background-color: #3d5afe;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-indigo-a700 {
+  color: #304ffe;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-indigo-a700 {
+  background-color: #304ffe;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-blue-50 {
+  color: #e3f2fd;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-blue-50 {
+  background-color: #e3f2fd;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-blue-100 {
+  color: #bbdefb;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-blue-100 {
+  background-color: #bbdefb;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-blue-200 {
+  color: #90caf9;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-blue-200 {
+  background-color: #90caf9;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-blue-300 {
+  color: #64b5f6;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-blue-300 {
+  background-color: #64b5f6;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-blue-400 {
+  color: #42a5f5;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-blue-400 {
+  background-color: #42a5f5;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-blue-500 {
+  color: #2196f3;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-blue-500 {
+  background-color: #2196f3;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-blue-600 {
+  color: #1e88e5;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-blue-600 {
+  background-color: #1e88e5;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-blue-700 {
+  color: #1976d2;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-blue-700 {
+  background-color: #1976d2;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-blue-800 {
+  color: #1565c0;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-blue-800 {
+  background-color: #1565c0;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-blue-900 {
+  color: #0d47a1;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-blue-900 {
+  background-color: #0d47a1;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-blue-a100 {
+  color: #82b1ff;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-blue-a100 {
+  background-color: #82b1ff;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-blue-a200 {
+  color: #448aff;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-blue-a200 {
+  background-color: #448aff;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-blue-a400 {
+  color: #2979ff;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-blue-a400 {
+  background-color: #2979ff;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-blue-a700 {
+  color: #2962ff;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-blue-a700 {
+  background-color: #2962ff;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-light-blue-50 {
+  color: #e1f5fe;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-light-blue-50 {
+  background-color: #e1f5fe;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-light-blue-100 {
+  color: #b3e5fc;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-light-blue-100 {
+  background-color: #b3e5fc;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-light-blue-200 {
+  color: #81d4fa;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-light-blue-200 {
+  background-color: #81d4fa;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-light-blue-300 {
+  color: #4fc3f7;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-light-blue-300 {
+  background-color: #4fc3f7;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-light-blue-400 {
+  color: #29b6f6;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-light-blue-400 {
+  background-color: #29b6f6;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-light-blue-500 {
+  color: #03a9f4;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-light-blue-500 {
+  background-color: #03a9f4;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-light-blue-600 {
+  color: #039be5;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-light-blue-600 {
+  background-color: #039be5;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-light-blue-700 {
+  color: #0288d1;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-light-blue-700 {
+  background-color: #0288d1;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-light-blue-800 {
+  color: #0277bd;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-light-blue-800 {
+  background-color: #0277bd;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-light-blue-900 {
+  color: #01579b;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-light-blue-900 {
+  background-color: #01579b;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-light-blue-a100 {
+  color: #80d8ff;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-light-blue-a100 {
+  background-color: #80d8ff;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-light-blue-a200 {
+  color: #40c4ff;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-light-blue-a200 {
+  background-color: #40c4ff;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-light-blue-a400 {
+  color: #00b0ff;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-light-blue-a400 {
+  background-color: #00b0ff;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-light-blue-a700 {
+  color: #0091ea;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-light-blue-a700 {
+  background-color: #0091ea;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-cyan-50 {
+  color: #e0f7fa;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-cyan-50 {
+  background-color: #e0f7fa;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-cyan-100 {
+  color: #b2ebf2;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-cyan-100 {
+  background-color: #b2ebf2;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-cyan-200 {
+  color: #80deea;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-cyan-200 {
+  background-color: #80deea;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-cyan-300 {
+  color: #4dd0e1;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-cyan-300 {
+  background-color: #4dd0e1;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-cyan-400 {
+  color: #26c6da;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-cyan-400 {
+  background-color: #26c6da;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-cyan-500 {
+  color: #00bcd4;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-cyan-500 {
+  background-color: #00bcd4;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-cyan-600 {
+  color: #00acc1;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-cyan-600 {
+  background-color: #00acc1;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-cyan-700 {
+  color: #0097a7;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-cyan-700 {
+  background-color: #0097a7;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-cyan-800 {
+  color: #00838f;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-cyan-800 {
+  background-color: #00838f;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-cyan-900 {
+  color: #006064;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-cyan-900 {
+  background-color: #006064;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-cyan-a100 {
+  color: #84ffff;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-cyan-a100 {
+  background-color: #84ffff;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-cyan-a200 {
+  color: #18ffff;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-cyan-a200 {
+  background-color: #18ffff;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-cyan-a400 {
+  color: #00e5ff;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-cyan-a400 {
+  background-color: #00e5ff;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-cyan-a700 {
+  color: #00b8d4;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-cyan-a700 {
+  background-color: #00b8d4;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-teal-50 {
+  color: #e0f2f1;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-teal-50 {
+  background-color: #e0f2f1;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-teal-100 {
+  color: #b2dfdb;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-teal-100 {
+  background-color: #b2dfdb;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-teal-200 {
+  color: #80cbc4;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-teal-200 {
+  background-color: #80cbc4;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-teal-300 {
+  color: #4db6ac;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-teal-300 {
+  background-color: #4db6ac;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-teal-400 {
+  color: #26a69a;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-teal-400 {
+  background-color: #26a69a;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-teal-500 {
+  color: #009688;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-teal-500 {
+  background-color: #009688;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-teal-600 {
+  color: #00897b;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-teal-600 {
+  background-color: #00897b;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-teal-700 {
+  color: #00796b;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-teal-700 {
+  background-color: #00796b;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-teal-800 {
+  color: #00695c;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-teal-800 {
+  background-color: #00695c;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-teal-900 {
+  color: #004d40;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-teal-900 {
+  background-color: #004d40;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-teal-a100 {
+  color: #a7ffeb;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-teal-a100 {
+  background-color: #a7ffeb;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-teal-a200 {
+  color: #64ffda;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-teal-a200 {
+  background-color: #64ffda;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-teal-a400 {
+  color: #1de9b6;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-teal-a400 {
+  background-color: #1de9b6;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-teal-a700 {
+  color: #00bfa5;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-teal-a700 {
+  background-color: #00bfa5;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-green-50 {
+  color: #e8f5e9;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-green-50 {
+  background-color: #e8f5e9;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-green-100 {
+  color: #c8e6c9;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-green-100 {
+  background-color: #c8e6c9;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-green-200 {
+  color: #a5d6a7;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-green-200 {
+  background-color: #a5d6a7;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-green-300 {
+  color: #81c784;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-green-300 {
+  background-color: #81c784;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-green-400 {
+  color: #66bb6a;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-green-400 {
+  background-color: #66bb6a;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-green-500 {
+  color: #4caf50;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-green-500 {
+  background-color: #4caf50;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-green-600 {
+  color: #43a047;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-green-600 {
+  background-color: #43a047;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-green-700 {
+  color: #388e3c;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-green-700 {
+  background-color: #388e3c;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-green-800 {
+  color: #2e7d32;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-green-800 {
+  background-color: #2e7d32;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-green-900 {
+  color: #1b5e20;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-green-900 {
+  background-color: #1b5e20;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-green-a100 {
+  color: #b9f6ca;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-green-a100 {
+  background-color: #b9f6ca;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-green-a200 {
+  color: #69f0ae;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-green-a200 {
+  background-color: #69f0ae;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-green-a400 {
+  color: #00e676;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-green-a400 {
+  background-color: #00e676;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-green-a700 {
+  color: #00c853;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-green-a700 {
+  background-color: #00c853;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-light-green-50 {
+  color: #f1f8e9;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-light-green-50 {
+  background-color: #f1f8e9;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-light-green-100 {
+  color: #dcedc8;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-light-green-100 {
+  background-color: #dcedc8;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-light-green-200 {
+  color: #c5e1a5;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-light-green-200 {
+  background-color: #c5e1a5;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-light-green-300 {
+  color: #aed581;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-light-green-300 {
+  background-color: #aed581;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-light-green-400 {
+  color: #9ccc65;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-light-green-400 {
+  background-color: #9ccc65;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-light-green-500 {
+  color: #8bc34a;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-light-green-500 {
+  background-color: #8bc34a;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-light-green-600 {
+  color: #7cb342;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-light-green-600 {
+  background-color: #7cb342;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-light-green-700 {
+  color: #689f38;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-light-green-700 {
+  background-color: #689f38;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-light-green-800 {
+  color: #558b2f;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-light-green-800 {
+  background-color: #558b2f;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-light-green-900 {
+  color: #33691e;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-light-green-900 {
+  background-color: #33691e;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-light-green-a100 {
+  color: #ccff90;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-light-green-a100 {
+  background-color: #ccff90;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-light-green-a200 {
+  color: #b2ff59;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-light-green-a200 {
+  background-color: #b2ff59;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-light-green-a400 {
+  color: #76ff03;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-light-green-a400 {
+  background-color: #76ff03;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-light-green-a700 {
+  color: #64dd17;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-light-green-a700 {
+  background-color: #64dd17;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-lime-50 {
+  color: #f9fbe7;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-lime-50 {
+  background-color: #f9fbe7;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-lime-100 {
+  color: #f0f4c3;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-lime-100 {
+  background-color: #f0f4c3;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-lime-200 {
+  color: #e6ee9c;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-lime-200 {
+  background-color: #e6ee9c;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-lime-300 {
+  color: #dce775;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-lime-300 {
+  background-color: #dce775;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-lime-400 {
+  color: #d4e157;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-lime-400 {
+  background-color: #d4e157;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-lime-500 {
+  color: #cddc39;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-lime-500 {
+  background-color: #cddc39;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-lime-600 {
+  color: #c0ca33;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-lime-600 {
+  background-color: #c0ca33;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-lime-700 {
+  color: #afb42b;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-lime-700 {
+  background-color: #afb42b;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-lime-800 {
+  color: #9e9d24;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-lime-800 {
+  background-color: #9e9d24;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-lime-900 {
+  color: #827717;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-lime-900 {
+  background-color: #827717;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-lime-a100 {
+  color: #f4ff81;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-lime-a100 {
+  background-color: #f4ff81;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-lime-a200 {
+  color: #eeff41;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-lime-a200 {
+  background-color: #eeff41;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-lime-a400 {
+  color: #c6ff00;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-lime-a400 {
+  background-color: #c6ff00;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-lime-a700 {
+  color: #aeea00;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-lime-a700 {
+  background-color: #aeea00;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-yellow-50 {
+  color: #fffde7;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-yellow-50 {
+  background-color: #fffde7;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-yellow-100 {
+  color: #fff9c4;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-yellow-100 {
+  background-color: #fff9c4;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-yellow-200 {
+  color: #fff59d;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-yellow-200 {
+  background-color: #fff59d;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-yellow-300 {
+  color: #fff176;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-yellow-300 {
+  background-color: #fff176;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-yellow-400 {
+  color: #ffee58;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-yellow-400 {
+  background-color: #ffee58;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-yellow-500 {
+  color: #ffeb3b;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-yellow-500 {
+  background-color: #ffeb3b;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-yellow-600 {
+  color: #fdd835;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-yellow-600 {
+  background-color: #fdd835;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-yellow-700 {
+  color: #fbc02d;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-yellow-700 {
+  background-color: #fbc02d;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-yellow-800 {
+  color: #f9a825;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-yellow-800 {
+  background-color: #f9a825;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-yellow-900 {
+  color: #f57f17;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-yellow-900 {
+  background-color: #f57f17;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-yellow-a100 {
+  color: #ffff8d;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-yellow-a100 {
+  background-color: #ffff8d;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-yellow-a200 {
+  color: #ffff00;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-yellow-a200 {
+  background-color: #ffff00;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-yellow-a400 {
+  color: #ffea00;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-yellow-a400 {
+  background-color: #ffea00;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-yellow-a700 {
+  color: #ffd600;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-yellow-a700 {
+  background-color: #ffd600;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-amber-50 {
+  color: #fff8e1;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-amber-50 {
+  background-color: #fff8e1;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-amber-100 {
+  color: #ffecb3;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-amber-100 {
+  background-color: #ffecb3;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-amber-200 {
+  color: #ffe082;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-amber-200 {
+  background-color: #ffe082;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-amber-300 {
+  color: #ffd54f;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-amber-300 {
+  background-color: #ffd54f;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-amber-400 {
+  color: #ffca28;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-amber-400 {
+  background-color: #ffca28;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-amber-500 {
+  color: #ffc107;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-amber-500 {
+  background-color: #ffc107;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-amber-600 {
+  color: #ffb300;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-amber-600 {
+  background-color: #ffb300;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-amber-700 {
+  color: #ffa000;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-amber-700 {
+  background-color: #ffa000;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-amber-800 {
+  color: #ff8f00;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-amber-800 {
+  background-color: #ff8f00;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-amber-900 {
+  color: #ff6f00;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-amber-900 {
+  background-color: #ff6f00;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-amber-a100 {
+  color: #ffe57f;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-amber-a100 {
+  background-color: #ffe57f;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-amber-a200 {
+  color: #ffd740;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-amber-a200 {
+  background-color: #ffd740;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-amber-a400 {
+  color: #ffc400;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-amber-a400 {
+  background-color: #ffc400;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-amber-a700 {
+  color: #ffab00;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-amber-a700 {
+  background-color: #ffab00;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-orange-50 {
+  color: #fff3e0;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-orange-50 {
+  background-color: #fff3e0;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-orange-100 {
+  color: #ffe0b2;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-orange-100 {
+  background-color: #ffe0b2;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-orange-200 {
+  color: #ffcc80;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-orange-200 {
+  background-color: #ffcc80;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-orange-300 {
+  color: #ffb74d;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-orange-300 {
+  background-color: #ffb74d;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-orange-400 {
+  color: #ffa726;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-orange-400 {
+  background-color: #ffa726;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-orange-500 {
+  color: #ff9800;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-orange-500 {
+  background-color: #ff9800;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-orange-600 {
+  color: #fb8c00;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-orange-600 {
+  background-color: #fb8c00;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-orange-700 {
+  color: #f57c00;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-orange-700 {
+  background-color: #f57c00;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-orange-800 {
+  color: #ef6c00;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-orange-800 {
+  background-color: #ef6c00;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-orange-900 {
+  color: #e65100;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-orange-900 {
+  background-color: #e65100;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-orange-a100 {
+  color: #ffd180;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-orange-a100 {
+  background-color: #ffd180;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-orange-a200 {
+  color: #ffab40;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-orange-a200 {
+  background-color: #ffab40;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-orange-a400 {
+  color: #ff9100;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-orange-a400 {
+  background-color: #ff9100;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-orange-a700 {
+  color: #ff6d00;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-orange-a700 {
+  background-color: #ff6d00;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-deep-orange-50 {
+  color: #fbe9e7;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-deep-orange-50 {
+  background-color: #fbe9e7;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-deep-orange-100 {
+  color: #ffccbc;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-deep-orange-100 {
+  background-color: #ffccbc;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-deep-orange-200 {
+  color: #ffab91;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-deep-orange-200 {
+  background-color: #ffab91;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-deep-orange-300 {
+  color: #ff8a65;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-deep-orange-300 {
+  background-color: #ff8a65;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-deep-orange-400 {
+  color: #ff7043;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-deep-orange-400 {
+  background-color: #ff7043;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-deep-orange-500 {
+  color: #ff5722;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-deep-orange-500 {
+  background-color: #ff5722;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-deep-orange-600 {
+  color: #f4511e;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-deep-orange-600 {
+  background-color: #f4511e;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-deep-orange-700 {
+  color: #e64a19;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-deep-orange-700 {
+  background-color: #e64a19;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-deep-orange-800 {
+  color: #d84315;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-deep-orange-800 {
+  background-color: #d84315;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-deep-orange-900 {
+  color: #bf360c;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-deep-orange-900 {
+  background-color: #bf360c;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-deep-orange-a100 {
+  color: #ff9e80;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-deep-orange-a100 {
+  background-color: #ff9e80;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-deep-orange-a200 {
+  color: #ff6e40;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-deep-orange-a200 {
+  background-color: #ff6e40;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-deep-orange-a400 {
+  color: #ff3d00;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-deep-orange-a400 {
+  background-color: #ff3d00;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-deep-orange-a700 {
+  color: #dd2c00;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-deep-orange-a700 {
+  background-color: #dd2c00;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-brown-50 {
+  color: #efebe9;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-brown-50 {
+  background-color: #efebe9;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-brown-100 {
+  color: #d7ccc8;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-brown-100 {
+  background-color: #d7ccc8;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-brown-200 {
+  color: #bcaaa4;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-brown-200 {
+  background-color: #bcaaa4;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-brown-300 {
+  color: #a1887f;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-brown-300 {
+  background-color: #a1887f;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-brown-400 {
+  color: #8d6e63;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-brown-400 {
+  background-color: #8d6e63;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-brown-500 {
+  color: #795548;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-brown-500 {
+  background-color: #795548;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-brown-600 {
+  color: #6d4c41;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-brown-600 {
+  background-color: #6d4c41;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-brown-700 {
+  color: #5d4037;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-brown-700 {
+  background-color: #5d4037;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-brown-800 {
+  color: #4e342e;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-brown-800 {
+  background-color: #4e342e;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-brown-900 {
+  color: #3e2723;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-brown-900 {
+  background-color: #3e2723;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-grey-50 {
+  color: #fafafa;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-grey-50 {
+  background-color: #fafafa;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-grey-100 {
+  color: #f5f5f5;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-grey-100 {
+  background-color: #f5f5f5;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-grey-200 {
+  color: #eeeeee;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-grey-200 {
+  background-color: #eeeeee;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-grey-300 {
+  color: #e0e0e0;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-grey-300 {
+  background-color: #e0e0e0;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-grey-400 {
+  color: #bdbdbd;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-grey-400 {
+  background-color: #bdbdbd;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-grey-500 {
+  color: #9e9e9e;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-grey-500 {
+  background-color: #9e9e9e;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-grey-600 {
+  color: #757575;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-grey-600 {
+  background-color: #757575;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-grey-700 {
+  color: #616161;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-grey-700 {
+  background-color: #616161;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-grey-800 {
+  color: #424242;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-grey-800 {
+  background-color: #424242;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-grey-900 {
+  color: #212121;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-grey-900 {
+  background-color: #212121;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-blue-grey-50 {
+  color: #eceff1;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-blue-grey-50 {
+  background-color: #eceff1;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-blue-grey-100 {
+  color: #cfd8dc;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-blue-grey-100 {
+  background-color: #cfd8dc;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-blue-grey-200 {
+  color: #b0bec5;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-blue-grey-200 {
+  background-color: #b0bec5;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-blue-grey-300 {
+  color: #90a4ae;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-blue-grey-300 {
+  background-color: #90a4ae;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-blue-grey-400 {
+  color: #78909c;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-blue-grey-400 {
+  background-color: #78909c;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-blue-grey-500 {
+  color: #607d8b;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-blue-grey-500 {
+  background-color: #607d8b;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-blue-grey-600 {
+  color: #546e7a;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-blue-grey-600 {
+  background-color: #546e7a;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-blue-grey-700 {
+  color: #455a64;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-blue-grey-700 {
+  background-color: #455a64;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-blue-grey-800 {
+  color: #37474f;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-blue-grey-800 {
+  background-color: #37474f;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-blue-grey-900 {
+  color: #263238;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-blue-grey-900 {
+  background-color: #263238;
+}
+
+/* line 5, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.color-blue-grey-1000 {
+  color: #11171a;
+}
+
+/* line 8, ../../node_modules/sass-material-colors/sass/_sass-material-colors-classes.scss */
+.bg-color-blue-grey-1000 {
+  background-color: #11171a;
+}
+
+/* line 22, ../../node_modules/ngx-charts/src/common/tooltip/tooltip.component.scss */
+.ngx-tooltip-content {
+  position: fixed;
+  border-radius: 3px;
+  z-index: 5000;
+  display: block;
+  font-weight: normal;
+  opacity: 0;
+  pointer-events: none;
+}
+/* line 31, ../../node_modules/ngx-charts/src/common/tooltip/tooltip.component.scss */
+.ngx-tooltip-content.type-popover {
+  background: #fff;
+  color: #060709;
+  border: 1px solid #72809b;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 2px 1px -1px rgba(0, 0, 0, 0.12);
+  font-size: 13px;
+  padding: 4px;
+}
+/* line 39, ../../node_modules/ngx-charts/src/common/tooltip/tooltip.component.scss */
+.ngx-tooltip-content.type-popover .tooltip-caret {
+  position: absolute;
+  z-index: 5001;
+  width: 0;
+  height: 0;
+}
+/* line 45, ../../node_modules/ngx-charts/src/common/tooltip/tooltip.component.scss */
+.ngx-tooltip-content.type-popover .tooltip-caret.position-left {
+  border-top: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+  border-left: 7px solid #fff;
+}
+/* line 51, ../../node_modules/ngx-charts/src/common/tooltip/tooltip.component.scss */
+.ngx-tooltip-content.type-popover .tooltip-caret.position-top {
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-top: 7px solid #fff;
+}
+/* line 57, ../../node_modules/ngx-charts/src/common/tooltip/tooltip.component.scss */
+.ngx-tooltip-content.type-popover .tooltip-caret.position-right {
+  border-top: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+  border-right: 7px solid #fff;
+}
+/* line 63, ../../node_modules/ngx-charts/src/common/tooltip/tooltip.component.scss */
+.ngx-tooltip-content.type-popover .tooltip-caret.position-bottom {
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-bottom: 7px solid #fff;
+}
+/* line 71, ../../node_modules/ngx-charts/src/common/tooltip/tooltip.component.scss */
+.ngx-tooltip-content.type-tooltip {
+  color: #fff;
+  background: rgba(0, 0, 0, 0.75);
+  font-size: 12px;
+  padding: 0 10px;
+  text-align: center;
+  pointer-events: auto;
+}
+/* line 80, ../../node_modules/ngx-charts/src/common/tooltip/tooltip.component.scss */
+.ngx-tooltip-content.type-tooltip .tooltip-caret.position-left {
+  border-top: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+  border-left: 7px solid rgba(0, 0, 0, 0.75);
+}
+/* line 86, ../../node_modules/ngx-charts/src/common/tooltip/tooltip.component.scss */
+.ngx-tooltip-content.type-tooltip .tooltip-caret.position-top {
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-top: 7px solid rgba(0, 0, 0, 0.75);
+}
+/* line 92, ../../node_modules/ngx-charts/src/common/tooltip/tooltip.component.scss */
+.ngx-tooltip-content.type-tooltip .tooltip-caret.position-right {
+  border-top: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+  border-right: 7px solid rgba(0, 0, 0, 0.75);
+}
+/* line 98, ../../node_modules/ngx-charts/src/common/tooltip/tooltip.component.scss */
+.ngx-tooltip-content.type-tooltip .tooltip-caret.position-bottom {
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-bottom: 7px solid rgba(0, 0, 0, 0.75);
+}
+/* line 106, ../../node_modules/ngx-charts/src/common/tooltip/tooltip.component.scss */
+.ngx-tooltip-content .tooltip-caret {
+  position: absolute;
+  z-index: 5001;
+  width: 0;
+  height: 0;
+}
+/* line 113, ../../node_modules/ngx-charts/src/common/tooltip/tooltip.component.scss */
+.ngx-tooltip-content.position-right {
+  transform: translate3d(10px, 0, 0);
+}
+/* line 117, ../../node_modules/ngx-charts/src/common/tooltip/tooltip.component.scss */
+.ngx-tooltip-content.position-left {
+  transform: translate3d(-10px, 0, 0);
+}
+/* line 121, ../../node_modules/ngx-charts/src/common/tooltip/tooltip.component.scss */
+.ngx-tooltip-content.position-top {
+  transform: translate3d(0, -10px, 0);
+}
+/* line 125, ../../node_modules/ngx-charts/src/common/tooltip/tooltip.component.scss */
+.ngx-tooltip-content.position-bottom {
+  transform: translate3d(0, 10px, 0);
+}
+/* line 129, ../../node_modules/ngx-charts/src/common/tooltip/tooltip.component.scss */
+.ngx-tooltip-content.animate {
+  opacity: 1;
+  transition: opacity 0.3s, transform 0.3s;
+  transform: translate3d(0, 0, 0);
+  pointer-events: auto;
+}
+
+/* line 3, ../../node_modules/ngx-charts/src/ngx-charts.scss */
+.ngx-charts {
+  float: left;
+}
+/* line 6, ../../node_modules/ngx-charts/src/ngx-charts.scss */
+.ngx-charts .circle,
+.ngx-charts .bar,
+.ngx-charts .arc {
+  cursor: pointer;
+}
+/* line 16, ../../node_modules/ngx-charts/src/ngx-charts.scss */
+.ngx-charts .bar.active, .ngx-charts .bar:hover,
+.ngx-charts .cell.active,
+.ngx-charts .cell:hover,
+.ngx-charts .arc.active,
+.ngx-charts .arc:hover,
+.ngx-charts .card.active,
+.ngx-charts .card:hover {
+  opacity: 0.8;
+  transition: opacity 100ms ease-in-out;
+}
+/* line 22, ../../node_modules/ngx-charts/src/ngx-charts.scss */
+.ngx-charts .bar:focus,
+.ngx-charts .cell:focus,
+.ngx-charts .arc:focus,
+.ngx-charts .card:focus {
+  outline: none;
+}
+/* line 28, ../../node_modules/ngx-charts/src/ngx-charts.scss */
+.ngx-charts g:focus {
+  outline: none;
+}
+/* line 35, ../../node_modules/ngx-charts/src/ngx-charts.scss */
+.ngx-charts .line-series.inactive,
+.ngx-charts .area-series.inactive {
+  transition: opacity 100ms ease-in-out;
+  opacity: 0.2;
+}
+/* line 41, ../../node_modules/ngx-charts/src/ngx-charts.scss */
+.ngx-charts .line-highlight {
+  display: none;
+}
+/* line 44, ../../node_modules/ngx-charts/src/ngx-charts.scss */
+.ngx-charts .line-highlight.active {
+  display: block;
+}
+/* line 49, ../../node_modules/ngx-charts/src/ngx-charts.scss */
+.ngx-charts .area {
+  opacity: 0.6;
+}
+/* line 54, ../../node_modules/ngx-charts/src/ngx-charts.scss */
+.ngx-charts .circle:hover {
+  cursor: pointer;
+}
+/* line 60, ../../node_modules/ngx-charts/src/ngx-charts.scss */
+.ngx-charts .tree-map .label p {
+  display: table-cell;
+  text-align: center;
+  line-height: 1.2em;
+  vertical-align: middle;
+}
+
+/* line 69, ../../node_modules/ngx-charts/src/ngx-charts.scss */
+.ngx-tooltip-content {
+  pointer-events: none !important;
+}
+/* line 72, ../../node_modules/ngx-charts/src/ngx-charts.scss */
+.ngx-tooltip-content .tooltip-label {
+  display: block;
+  line-height: 1em;
+  padding: 8px 5px 5px 5px;
+  font-size: 1em;
+}
+/* line 79, ../../node_modules/ngx-charts/src/ngx-charts.scss */
+.ngx-tooltip-content .tooltip-val {
+  display: block;
+  font-size: 1.3em;
+  line-height: 1em;
+  padding: 0 5px 8px 5px;
+}
+
+/* line 87, ../../node_modules/ngx-charts/src/ngx-charts.scss */
+.label {
+  font-size: 12px;
+  font-weight: normal;
+}
+
+/* line 92, ../../node_modules/ngx-charts/src/ngx-charts.scss */
+.gridline-path {
+  stroke: #ddd;
+  stroke-width: 1;
+  fill: none;
+}
+
+/* line 99, ../../node_modules/ngx-charts/src/ngx-charts.scss */
+.grid-panel rect {
+  fill: none;
+}
+/* line 104, ../../node_modules/ngx-charts/src/ngx-charts.scss */
+.grid-panel.odd rect {
+  fill: rgba(0, 0, 0, 0.05);
+}
+
+/* line 110, ../../node_modules/ngx-charts/src/ngx-charts.scss */
+.a2d3-container {
+  height: 100%;
+}
+/* line 113, ../../node_modules/ngx-charts/src/ngx-charts.scss */
+.a2d3-container .status-message {
+  font-size: 14px;
+  text-align: center;
+  position: relative;
+  top: 43%;
+  color: #999;
+}
+/* line 121, ../../node_modules/ngx-charts/src/ngx-charts.scss */
+.a2d3-container .icon-loading {
+  color: #999;
+  font-size: 32px;
+}
+
+/* line 128, ../../node_modules/ngx-charts/src/ngx-charts.scss */
+.timeline .brush-background {
+  fill: rgba(0, 0, 0, 0.05);
+}
+/* line 133, ../../node_modules/ngx-charts/src/ngx-charts.scss */
+.timeline .brush .selection {
+  fill: rgba(0, 0, 0, 0.1);
+  stroke-width: 1px;
+  stroke: #888888;
+}
+/* line 139, ../../node_modules/ngx-charts/src/ngx-charts.scss */
+.timeline .brush .handle {
+  fill-opacity: 0;
+}
+/* line 144, ../../node_modules/ngx-charts/src/ngx-charts.scss */
+.timeline .embedded-chart {
+  opacity: 0.6;
+}
+
+/* line 149, ../../node_modules/ngx-charts/src/ngx-charts.scss */
+.area-tooltip-container {
+  padding: 5px 0;
+  pointer-events: none;
+}
+
+/* line 155, ../../node_modules/ngx-charts/src/ngx-charts.scss */
+.tooltip-item {
+  text-align: left;
+  line-height: 1.2em;
+  padding: 5px 0;
+}
+/* line 160, ../../node_modules/ngx-charts/src/ngx-charts.scss */
+.tooltip-item .tooltip-item-color {
+  display: inline-block;
+  height: 12px;
+  width: 12px;
+  margin-right: 5px;
+  color: #5b646b;
+  border-radius: 3px;
+}
+
+/* line 170, ../../node_modules/ngx-charts/src/ngx-charts.scss */
+.chart-legend {
+  display: inline-block;
+  padding: 0;
+  width: auto !important;
+}
+/* line 175, ../../node_modules/ngx-charts/src/ngx-charts.scss */
+.chart-legend .legend-title {
+  white-space: nowrap;
+  overflow: hidden;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+/* line 184, ../../node_modules/ngx-charts/src/ngx-charts.scss */
+.chart-legend ul, .chart-legend li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+/* line 190, ../../node_modules/ngx-charts/src/ngx-charts.scss */
+.chart-legend .legend-wrap {
+  width: 90%;
+}
+/* line 194, ../../node_modules/ngx-charts/src/ngx-charts.scss */
+.chart-legend .scale-legend {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+/* line 200, ../../node_modules/ngx-charts/src/ngx-charts.scss */
+.chart-legend .scale-legend-wrap {
+  display: inline-block;
+  flex: 1;
+  width: 30px;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+/* line 208, ../../node_modules/ngx-charts/src/ngx-charts.scss */
+.chart-legend .scale-legend-label {
+  font-size: 12px;
+}
+/* line 212, ../../node_modules/ngx-charts/src/ngx-charts.scss */
+.chart-legend .legend-labels {
+  line-height: 85%;
+  list-style: none;
+  text-align: left;
+  float: left;
+  width: 100%;
+  border-radius: 3px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  white-space: nowrap;
+  background: rgba(0, 0, 0, 0.05);
+}
+/* line 225, ../../node_modules/ngx-charts/src/ngx-charts.scss */
+.chart-legend .legend-label {
+  cursor: pointer;
+  font-size: 90%;
+  margin: 8px;
+  color: #76818a;
+}
+/* line 231, ../../node_modules/ngx-charts/src/ngx-charts.scss */
+.chart-legend .legend-label:hover {
+  color: #000;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  transition: 0.2s;
+}
+/* line 239, ../../node_modules/ngx-charts/src/ngx-charts.scss */
+.chart-legend .legend-label .active .legend-label-text {
+  color: #000;
+}
+/* line 245, ../../node_modules/ngx-charts/src/ngx-charts.scss */
+.chart-legend .legend-label-color {
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  margin-right: 5px;
+  color: #5b646b;
+  border-radius: 3px;
+}
+/* line 254, ../../node_modules/ngx-charts/src/ngx-charts.scss */
+.chart-legend .legend-label-text {
+  display: inline-block;
+  vertical-align: top;
+  line-height: 15px;
+  font-size: 12px;
+  width: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  padding-right: 20px;
+}
+/* line 266, ../../node_modules/ngx-charts/src/ngx-charts.scss */
+.chart-legend .legend-icon {
+  color: #4d9df6;
+  margin-right: 5px;
+}
+/* line 271, ../../node_modules/ngx-charts/src/ngx-charts.scss */
+.chart-legend .legend-title-text {
+  vertical-align: bottom;
+  display: inline-block;
+  line-height: 16px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/* line 281, ../../node_modules/ngx-charts/src/ngx-charts.scss */
+.advanced-pie {
+  display: inline-block;
+  float: left;
+}
+
+/* line 286, ../../node_modules/ngx-charts/src/ngx-charts.scss */
+.advanced-pie-legend-wrapper {
+  display: inline-block;
+}
+
+/* line 290, ../../node_modules/ngx-charts/src/ngx-charts.scss */
+.advanced-pie-legend {
+  float: left;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+/* line 296, ../../node_modules/ngx-charts/src/ngx-charts.scss */
+.advanced-pie-legend .total-value {
+  font-size: 36px;
+}
+/* line 300, ../../node_modules/ngx-charts/src/ngx-charts.scss */
+.advanced-pie-legend .total-label {
+  font-size: 24px;
+  margin-bottom: 19px;
+}
+/* line 305, ../../node_modules/ngx-charts/src/ngx-charts.scss */
+.advanced-pie-legend .legend-items-container {
+  width: 100%;
+}
+/* line 308, ../../node_modules/ngx-charts/src/ngx-charts.scss */
+.advanced-pie-legend .legend-items-container .legend-items {
+  white-space: nowrap;
+  overflow: auto;
+}
+/* line 312, ../../node_modules/ngx-charts/src/ngx-charts.scss */
+.advanced-pie-legend .legend-items-container .legend-items .legend-item {
+  margin-right: 20px;
+  display: inline-block;
+  cursor: pointer;
+}
+/* line 317, ../../node_modules/ngx-charts/src/ngx-charts.scss */
+.advanced-pie-legend .legend-items-container .legend-items .legend-item:focus {
+  outline: none;
+}
+/* line 321, ../../node_modules/ngx-charts/src/ngx-charts.scss */
+.advanced-pie-legend .legend-items-container .legend-items .legend-item:hover {
+  color: #000;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  transition: 0.2s;
+}
+/* line 328, ../../node_modules/ngx-charts/src/ngx-charts.scss */
+.advanced-pie-legend .legend-items-container .legend-items .legend-item .item-value {
+  font-size: 24px;
+  margin-top: -6px;
+  margin-left: 11px;
+}
+/* line 334, ../../node_modules/ngx-charts/src/ngx-charts.scss */
+.advanced-pie-legend .legend-items-container .legend-items .legend-item .item-label {
+  font-size: 12px;
+  opacity: 0.7;
+  margin-left: 11px;
+  margin-top: -6px;
+}
+/* line 341, ../../node_modules/ngx-charts/src/ngx-charts.scss */
+.advanced-pie-legend .legend-items-container .legend-items .legend-item .item-percent {
+  font-size: 24px;
+  opacity: 0.7;
+  margin-left: 11px;
+}
+/* line 347, ../../node_modules/ngx-charts/src/ngx-charts.scss */
+.advanced-pie-legend .legend-items-container .legend-items .legend-item .item-color {
+  width: 4px;
+  height: 32px;
+  float: left;
+  margin-right: 7px;
+}
+
+/* line 358, ../../node_modules/ngx-charts/src/ngx-charts.scss */
+.pie-label {
+  font-size: 11px;
+}
+
+/* line 363, ../../node_modules/ngx-charts/src/ngx-charts.scss */
+.pie-grid .arc1 {
+  opacity: 0.4;
+}
+/* line 366, ../../node_modules/ngx-charts/src/ngx-charts.scss */
+.pie-grid .percent-label {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* line 373, ../../node_modules/ngx-charts/src/ngx-charts.scss */
+.force-directed-graph .edge {
+  stroke: #333;
+}
+
+/* line 379, ../../node_modules/ngx-charts/src/ngx-charts.scss */
+.tree-map .treemap-val {
+  font-size: 1.3em;
+  padding-top: 5px;
+  display: inline-block;
+}
+
+/* line 388, ../../node_modules/ngx-charts/src/ngx-charts.scss */
+.gauge .background-arc path {
+  fill: rgba(0, 0, 0, 0.05);
+}
+/* line 394, ../../node_modules/ngx-charts/src/ngx-charts.scss */
+.gauge .gauge-tick path {
+  stroke: #666;
+}
+/* line 398, ../../node_modules/ngx-charts/src/ngx-charts.scss */
+.gauge .gauge-tick text {
+  font-size: 12px;
+  fill: #666;
+  font-weight: bold;
+}
+/* line 405, ../../node_modules/ngx-charts/src/ngx-charts.scss */
+.gauge .gauge-tick-large path {
+  stroke-width: 2px;
+}
+/* line 409, ../../node_modules/ngx-charts/src/ngx-charts.scss */
+.gauge .gauge-tick-small path {
+  stroke-width: 1px;
+}
+
+/* line 414, ../../node_modules/ngx-charts/src/ngx-charts.scss */
+.linear-gauge {
+  cursor: pointer;
+}
+/* line 418, ../../node_modules/ngx-charts/src/ngx-charts.scss */
+.linear-gauge .background-bar path {
+  fill: rgba(0, 0, 0, 0.05);
+}
+/* line 423, ../../node_modules/ngx-charts/src/ngx-charts.scss */
+.linear-gauge .units {
+  fill: #666;
+}
+
+/* line 5, ../compass-mixins/lib/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../compass-mixins/lib/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../compass-mixins/lib/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../compass-mixins/lib/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../compass-mixins/lib/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../compass-mixins/lib/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../compass-mixins/lib/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../compass-mixins/lib/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../compass-mixins/lib/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 1, ../sass/_sidenav-layout.scss */
+md-sidenav {
+  padding: 8px;
+  min-width: 350px;
+}
+/* line 5, ../sass/_sidenav-layout.scss */
+md-sidenav button.close {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+/* line 10, ../sass/_sidenav-layout.scss */
+md-sidenav .title {
+  font-size: 18px;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+  width: calc(100% - 30px);
+}
+
+/* line 19, ../sass/_sidenav-layout.scss */
+.sidenav-content .expand-menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100000;
+  min-width: 30px;
+}
+
+/* line 1, ../sass/_base.scss */
+html, body {
+  margin: 0;
+  margin-top: 30px;
+  padding: 0;
+  overflow: hidden;
+  font-family: "Roboto Light", "HelveticaNeue", sans-serif;
+}
+
+/* line 9, ../sass/_base.scss */
+body {
+  font-size: 0.85em;
+}
+/* line 10, ../sass/_base.scss */
+body.hide-scroll-bar {
+  overflow: hidden;
+}
+
+/* line 3, ../../src/core/visualisations/visualisation.scss */
+.network-container {
+  height: 100%;
+}
+/* line 6, ../../src/core/visualisations/visualisation.scss */
+.network-container .node {
+  cursor: pointer;
+}
+/* line 9, ../../src/core/visualisations/visualisation.scss */
+.network-container .node text {
+  text-anchor: middle;
+  fill: black;
+}
+/* line 10, ../../src/core/visualisations/visualisation.scss */
+.network-container .node text.highlighted {
+  fill: #3f51b5;
+}
+/* line 18, ../../src/core/visualisations/visualisation.scss */
+.network-container .node.selectedNode .nodeCircle {
+  stroke-width: 10px;
+  stroke-opacity: .5;
+}
+/* line 25, ../../src/core/visualisations/visualisation.scss */
+.network-container .link {
+  fill: none;
+  stroke: #bdc0cc;
+  stroke-width: 1.5px;
+  marker-end: url("#end");
+}
+/* line 31, ../../src/core/visualisations/visualisation.scss */
+.network-container .link:hover {
+  stroke-width: 6px;
+  marker-end: none;
+}
+/* line 37, ../../src/core/visualisations/visualisation.scss */
+.network-container .nodeCircle {
+  stroke: #bdc0cc;
+  stroke-width: 1.5px;
+  cursor: pointer;
+  fill: white;
+}
+/* line 44, ../../src/core/visualisations/visualisation.scss */
+.network-container .selectedNode .nodeCircle {
+  stroke: #bdc0cc;
+  stroke-dasharray: "5,5";
+}

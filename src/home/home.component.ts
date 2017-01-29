@@ -1,4 +1,5 @@
-import {Component, ViewChild} from "@angular/core";
+import {Component, ViewChild, Inject} from "@angular/core";
+// import {MdDialog, MdDialogConfig, MdDialogRef} from "@angular/material";
 
 @Component({
     selector: "home-app",
@@ -66,6 +67,44 @@ export class HomeComponent {
             ]
         }
     ];
+
+    rawData = {nodes:[
+        {id: 1, name: "name1", counter:1, icon:"", friends: 1},
+        {id: 2, name: "name2", counter: 2, icon:"", friends: 1}]
+        ,
+        links:[
+            {srcId: 1, dstId:2 }
+        ]};
+
+    networkData = this.formatNetwork(this.rawData);
+
+
+
+    // constructor(@Inject(MdDialog) private dialog,
+    //             @Inject(MdDialogConfig) private dialogConfig){
+    //
+    // }
+
+    showLinkContextMenu(data){
+        console.log(data);
+    }
+
+    showNodeContextMenu(data){
+        console.log(data);
+    }
+
+    private formatNetwork(rawData) {
+        return {
+            nodes: rawData.nodes,
+            links: rawData.links.map(e => {
+                e.source = e.srcId;
+                e.target = e.dstId;
+
+                return e;
+            })
+        }
+    }
+
 
 
 }

@@ -12,8 +12,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
     <link rel="stylesheet" href="node_modules/ng2-material/ng2-material.css">
-    <link rel="stylesheet" href="node_modules/ngx-charts/release/ngx-charts.css">
     <link rel="stylesheet" href="node_modules/@angular/material/core/theming/prebuilt/indigo-pink.css">
+    <link rel="stylesheet" href="themes/stylesheets/screen.css">
 
     <base href="./">
 </head>
@@ -23,8 +23,30 @@
     <demo-app></demo-app>
 </div>
 
+<!--build:js app.js-->
+
+<script src="node_modules/underscore/underscore-min.js"></script>
+
 <script src="build/vendors.bundle.js"></script>
 <script src="build/app.bundle.js"></script>
+
+<!--end build-->
+
+<svg class="svg-defs" style="width:0px; height:0px;">
+    <defs>
+        <marker id="end" viewBox="0 -5 10 10" refX="27" refY="0" fill="#bdc0cc" markerWidth="6" markerHeight="6"
+                orient="auto" stroke-width="3" stroke-opacity="100%" fill-opacity="100%">
+            <path d="M0,-5L10,0L0,5"></path>
+        </marker>
+        <marker id="arc" viewBox="0 -5 10 10" refX="26" refY="-2" fill="#bdc0cc" markerWidth="6" markerHeight="6"
+                orient="auto" stroke-width="3" stroke-opacity="100%" fill-opacity="100%">
+            <path d="M0,-5L10,0L0,5"></path>
+        </marker>
+        <pattern id="people" viewBox="0 0 70 70" x="0%" y="0%" height="100%" width="100%">
+            <image x="0" y="-75" xlink:href="img/icons.png" height="2269" width="72"></image>
+        </pattern>
+    </defs>
+</svg>
 
 </body>
 </html>
