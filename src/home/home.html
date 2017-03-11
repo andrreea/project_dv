@@ -22,7 +22,10 @@
 <section class="main-area">
     <md-sidenav-layout class="sidenav-layout" style="height:800px">
         <md-sidenav #left [opened]="true" mode="side" style="width: 600px;">
-            <button md-icon-button (click)="left.close()" class="close">
+            <!--<button md-icon-button (click)="left.close()" class="close">-->
+                <!--<md-icon class="md2 md-icon material-icons"> cancel </md-icon>-->
+            <!--</button>-->
+            <button md-icon-button (click)="getData()" class="close">
                 <md-icon class="md2 md-icon material-icons"> cancel </md-icon>
             </button>
             <div class="panel-contents margin-bottom-10">

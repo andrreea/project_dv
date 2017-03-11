@@ -5,11 +5,13 @@ import {FormsModule} from '@angular/forms';
 import {HomeComponent} from "./home.component";
 import {ChartsModule} from "../charts/charts.module";
 import {NetworkModule} from "../network/network.module";
+import {HomeActions} from "./home.actions";
+import {HomeStore} from "./home.store";
 
 @NgModule({
     declarations: [HomeComponent],
     //store and actions
-    providers: [],
+    providers: [HomeActions, HomeStore],
     imports: [
         CommonModule,
         FormsModule,

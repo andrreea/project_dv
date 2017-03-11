@@ -1,4 +1,7 @@
 import {Component, ViewChild, Inject} from "@angular/core";
+import {HomeActions} from "./home.actions";
+import {HomeStore, CH_AVAILABLE} from "./home.store";
+import {Subscription} from "rxjs";
 // import {MdDialog, MdDialogConfig, MdDialogRef} from "@angular/material";
 
 @Component({
@@ -8,6 +11,28 @@ import {Component, ViewChild, Inject} from "@angular/core";
 export class HomeComponent {
     @ViewChild("left") leftMenuComponent: any;
     @ViewChild("right") rightMenuComponent: any;
+
+    private myData;
+    private subscription: Subscription;
+
+    constructor(private store: HomeStore,
+                private actions: HomeActions){
+
+        this.subscription = store.subscribe(event => {
+
+            switch (event){
+                case CH_AVAILABLE:
+                    this.myData = store.getSomeData();
+                    console.log(this.myData);
+                    break;
+            }
+        });
+    }
+
+    getData() {
+        console.log(" button");
+        this.actions.getDataForGraph();
+    }
 
     inputData = [
         {
@@ -77,13 +102,6 @@ export class HomeComponent {
         ]};
 
     networkData = this.formatNetwork(this.rawData);
-
-
-
-    // constructor(@Inject(MdDialog) private dialog,
-    //             @Inject(MdDialogConfig) private dialogConfig){
-    //
-    // }
 
     showLinkContextMenu(data){
         console.log(data);

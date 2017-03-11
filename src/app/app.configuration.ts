@@ -1,8 +1,12 @@
-const apiBase = "/api";
+import {Injectable} from '@angular/core';
 
+const apiBase = "/data";
+
+@Injectable()
 export class AppConfiguration {
     urls = {
-        barData: `{$apiBase}/somedata`,
-        barChartData: term => `/dummyData/${term}`
+        someDataForChart: `${apiBase}/flare.json`
+        // barChartData: term => `/dummyData/${term}`,
+
     }
 }
