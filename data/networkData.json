@@ -1,0 +1,7 @@
+{nodes:[
+  {id: 11, name: "name1", counter:1, icon:"", friends: 1},
+  {id: 13, name: "name2", counter: 2, icon:"", friends: 1}]
+, links:[
+    {srcId: 11, dstId:13 }
+  ]
+}

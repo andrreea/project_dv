@@ -10,9 +10,9 @@
     }
 
     .bar .active{
-         opacity: 1 !important;
-         fill-opacity: 1 !important;
-     }
+        opacity: 1 !important;
+        fill-opacity: 1 !important;
+    }
     .network-container {
         height: 100%;
     }
@@ -22,26 +22,83 @@
 <section class="main-area">
     <md-sidenav-layout class="sidenav-layout" style="height:800px">
         <md-sidenav #left [opened]="true" mode="side" style="width: 600px;">
-            <!--<button md-icon-button (click)="left.close()" class="close">-->
-                <!--<md-icon class="md2 md-icon material-icons"> cancel </md-icon>-->
-            <!--</button>-->
-            <button md-icon-button (click)="getData()" class="close">
+            <button md-icon-button (click)="left.close()" class="close">
                 <md-icon class="md2 md-icon material-icons"> cancel </md-icon>
             </button>
-            <div class="panel-contents margin-bottom-10">
-                Something in here
+            <!--<button md-icon-button (click)="getData()" class="close">-->
+            <!--<md-icon class="md2 md-icon material-icons"> cancel </md-icon>-->
+            <!--</button>-->
+            <div style="margin-top: 12px;">
+                <md-tab-group (selectChange)="tabChanges($event)">
+                    <md-tab>
+                        <template md-tab-label class="title"> View </template>
 
-                <!--<network [networkData]="networkData"-->
-                <!--(nodeContextMenuShow)="showNodeContextMenu($vent)"-->
-                <!--class="network-container">-->
+                        <div class="margin-bottom-15"  style="width:100%;">
+                            <simple-search-form class="margin-bottom-10"
+                                                (searchOnTerm)="performSearch($event)">
 
-                <!--</network>-->
+                            </simple-search-form>
+                        </div>
 
-                <network [networkData]="networkData"
-                class="network-container">
-                </network>
 
+                        <div>
+                            <md-toolbar>Display</md-toolbar>
+
+                                <md-card>
+
+                                    <md-button-toggle-group #groupColor="mdButtonToggleGroup">
+                                        <md-button-toggle value="label">
+                                            Type
+                                        </md-button-toggle>
+                                        <md-button-toggle value="age">
+                                            Age
+                                        </md-button-toggle>
+                                        <md-button-toggle value="gender">
+                                            Gender
+                                        </md-button-toggle>
+                                        <md-button-toggle value="favoriteFruit">
+                                            Fruit
+                                        </md-button-toggle>
+                                        <md-button-toggle value="justify" disabled>
+                                            Country
+                                        </md-button-toggle>
+                                    </md-button-toggle-group>
+                                    <div class="example-selected-value">Selected value: {{groupColor.value}}</div>
+
+                                    <md-button-toggle-group #groupRadius="mdButtonToggleGroup">
+                                        <md-button-toggle value=""> Default
+                                            <!--<md-icon>format_align_left</md-icon>-->
+                                        </md-button-toggle>
+                                        <md-button-toggle value="age"> Age
+                                            <!--<md-icon>format_align_left</md-icon>-->
+                                        </md-button-toggle>
+                                        <md-button-toggle value="friends"> Number Of Friends
+                                        </md-button-toggle>
+                                    </md-button-toggle-group>
+                                    <div class="example-selected-value">Selected value: {{groupRadius.value}}</div>
+
+
+                                </md-card>
+                        </div>
+
+
+                    </md-tab>
+                    <md-tab>
+                        <template md-tab-label class="title"> Analysis</template>
+
+                        <div class="panel-contents margin-bottom-10">
+
+                            <charts [data]="inputData"
+                                    [dataLine]="lineData">
+                            </charts>
+
+                        </div>
+
+                    </md-tab>
+                </md-tab-group>
             </div>
+
+
         </md-sidenav>
 
         <md-sidenav #right align="end">
@@ -61,10 +118,12 @@
                     (click)="left.toggle()">
                 <md-icon class="md2 md-icon material-icons"> menu </md-icon>
             </button>
-            something
-            <charts [data]="inputData"
-                    [dataLine]="lineData">
-            </charts>
+
+            <network [colorValue]="groupColor.value"
+                     [radiusValue]="groupRadius.value"
+                     [networkData]="networkData"
+                     class="network-container">
+            </network>
 
 
         </div>

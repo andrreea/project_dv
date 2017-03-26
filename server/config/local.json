@@ -1,3 +1,4 @@
 {
-  "restApi": "http://bl.ocks.org/d/4063550"
+  "restApi": "http://localhost:7474/db/data",
+  "auth": false
 }

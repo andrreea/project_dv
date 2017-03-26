@@ -88,7 +88,7 @@ export class NodeGenerator extends EventEmitter<DispatcherPayload>{
             .append("circle")
             .attr("class", d=> "nodeCircle")
             .attr("r", () => CIRCLE_RADIUS);
-            // .attr("style", this.addNodeStyleIcon);
+            // .attr("style", () => {return 'fill: blue;';});
 
         if (this.options.showLabel) {
             newGroup.append("text")
@@ -128,6 +128,22 @@ export class NodeGenerator extends EventEmitter<DispatcherPayload>{
     update() {
         this.nodeGroup.select(`[data-id=${DECORATOR_COUNTER_ID}]`).text(this.counterDecoratorText.bind(this));
         this.nodeGroup.attr("class", this.addNodeClass);
+        this.nodeGroup.select("circle").attr("style", () => {return 'fill: blue;';});
+
+    }
+
+    updateColor(colorScheme, colorVarname) {
+        this.nodeGroup.select("circle").attr("style", d => {return 'fill: ' + colorScheme(d[colorVarname]) + ';';});
+    }
+
+    updateRadius(radius, radiusVarname) {
+        if (radiusVarname == "") {
+            this.nodeGroup.select("circle").attr("r", () => CIRCLE_RADIUS);
+        }
+        else {
+            this.nodeGroup.select("circle").attr("r", d => {  return  radius(d[radiusVarname]);});
+
+        }
     }
 
     drawOnTick() {

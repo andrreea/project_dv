@@ -12,11 +12,16 @@ export class HomeComponent {
     @ViewChild("left") leftMenuComponent: any;
     @ViewChild("right") rightMenuComponent: any;
 
+    networkData = {nodes: [], links: []};
+
+    chartTabActive : boolean = false;
     private myData;
     private subscription: Subscription;
 
     constructor(private store: HomeStore,
                 private actions: HomeActions){
+
+        // this.actions.getDataForGraph();
 
         this.subscription = store.subscribe(event => {
 
@@ -24,14 +29,26 @@ export class HomeComponent {
                 case CH_AVAILABLE:
                     this.myData = store.getSomeData();
                     console.log(this.myData);
+
+                    this.networkData = this.formatNetwork(this.myData);
+
                     break;
             }
         });
     }
 
-    getData() {
-        console.log(" button");
-        this.actions.getDataForGraph();
+    tabChanges({index}){
+        this.chartTabActive =( index === 1);
+    }
+
+    tabResultChanges() {
+        window.dispatchEvent(new Event("resize"));
+    }
+
+
+    performSearch(searchTerm) {
+        console.log(searchTerm);
+        this.actions.getDataForGraph(searchTerm);
     }
 
     inputData = [
@@ -93,15 +110,17 @@ export class HomeComponent {
         }
     ];
 
-    rawData = {nodes:[
-        {id: 1, name: "name1", counter:1, icon:"", friends: 1},
-        {id: 2, name: "name2", counter: 2, icon:"", friends: 1}]
-        ,
-        links:[
-            {srcId: 1, dstId:2 }
-        ]};
+//     rawData = {nodes:[
+//     {id: 11, name: "name1", counter:1, icon:"", friends: 1},
+//     {id: 13, name: "name2", counter: 2, icon:"", friends: 1}]
+//     , links:[
+//         {srcId: 11, dstId:13 }
+//     ]
+// };
+//
+//     networkData = this.formatNetwork(this.rawData);
 
-    networkData = this.formatNetwork(this.rawData);
+
 
     showLinkContextMenu(data){
         console.log(data);

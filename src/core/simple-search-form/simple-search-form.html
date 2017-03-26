@@ -1,0 +1,15 @@
+<form>
+    <div class="margin-bottom-10">
+            <md-input type="text" [(ngModel)]="searchInput" name="searchInput"
+                   style="padding:2px; box-sizing: border-box; width:100%;"
+                   placeholder="Search for people">
+
+            </md-input>
+    </div>
+    <div layout="row" layout-align="end end">
+        <button md-button md-raised-button color="primary"
+                [disabled]="!searchInput"
+                (click)="searchValue()"> Search
+        </button>
+    </div>
+</form>

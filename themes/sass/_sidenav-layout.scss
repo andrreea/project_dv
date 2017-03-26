@@ -1,0 +1,26 @@
+md-sidenav {
+  padding: 8px;
+  min-width: 350px;
+
+  button.close {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+  }
+    .title {
+      font-size: 18px;
+      text-transform: capitalize;
+      margin-bottom: 15px;
+      width: calc(100% - 30px);
+    }
+}
+
+.sidenav-content {
+  .expand-menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100000;
+    min-width: 30px;
+  }
+}

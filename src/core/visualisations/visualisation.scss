@@ -1,0 +1,48 @@
+$defaultLinkNodeColor: #bdc0cc;
+
+.network-container {
+  height: 100%;
+
+  .node {
+    cursor: pointer;
+
+    text {
+      &.highlighted {
+        fill: #3f51b5;
+      }
+      text-anchor: middle;
+      fill:black;
+    }
+
+    &.selectedNode {
+      .nodeCircle {
+        stroke-width: 10px;
+        stroke-opacity: .5;
+      }
+    }
+  }
+
+  .link {
+    fill: none;
+    stroke: $defaultLinkNodeColor;
+    stroke-width: 1.5px;
+    marker-end: url("#end");
+
+    &:hover {
+      stroke-width: 6px;
+      marker-end: none;
+    }
+  }
+
+  .nodeCircle {
+    stroke: #bdc0cc;
+    stroke-width: 1.5px;
+    cursor: pointer;
+    fill: white;
+  }
+
+  .selectedNode .nodeCircle {
+    stroke: $defaultLinkNodeColor;
+    stroke-dasharray: "5,5";
+  }
+}

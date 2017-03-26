@@ -1,0 +1,12 @@
+$general-background-color: material-color('grey', '200');
+
+$body-margin-top: 15px;
+
+$font-size-base: 14px;
+$line-height-base: 1.428571429;
+//20/14
+$font-size-large: ceil(($font-size-base * 1.25));
+// ~ 18px
+$font-size-small: ceil (($font-size-base * 0.85));
+// ~ 12px
+$default-font : "Roboto Light", "HelveticaNeue", sans-serif;

@@ -1,0 +1,35 @@
+// delete database
+MATCH (n)
+OPTIONAL MATCH (n)-[r]-()
+DELETE n,r
+
+//create new database
+create
+(IoanaC:Person {name:'Ioana Co', age:30, gender:"female", phone: "+1 (871) 503-3466", friends:3, favoriteFruit:"banana" }),
+(IoanaB:Person {name:'Ioana Bu', age:20, gender:"female", phone: "+1 (871) 503-3466", friends:4, favoriteFruit:"banana" }),
+(ElenaC:Person {name:'Elena Co', age:18, gender:"female", phone: "+1 (871) 503-3466", friends:4, favoriteFruit:"orange" }),
+(DianaC:Person {name:'Diana Co', age:18, gender:"female", phone: "+1 (871) 503-3466", friends:4, favoriteFruit:"orange" }),
+(LyndaT:Person {name:'Lynda Tu', age:20, gender:"female", phone: "+1 (871) 503-3466", friends:5, favoriteFruit:"orange" }),
+(LyndaM:Person {name:'Lynda Me', age:23, gender:"female", phone: "+1 (871) 503-3466", friends:5, favoriteFruit:"pear" }),
+(LyndaB:Person {name:'Lynda Bu', age:23, gender:"female", phone: "+1 (871) 503-3466", friends:5, favoriteFruit:"pear" }),
+(DavidB:Person {name:'David Black', age:26, gender:"male", phone: "+1 (871) 503-3466", friends:7, favoriteFruit:"apple" }),
+(DavidM:Person {name:'David Me', age:30, gender:"male", phone: "+1 (871) 503-3466", friends:7, favoriteFruit:"orange" }),
+(DavidT:Person {name:'David Tu', age:30, gender:"male", phone: "+1 (871) 503-3466", friends:7, favoriteFruit:"orange" }),
+(IoanaC)-[:FRIENDS]->(LyndaM), (IoanaC)-[:FRIENDS]->(DavidB),
+(LyndaT)-[:FRIENDS]->(IoanaB), (IoanaB)-[:FRIENDS]->(DavidM),
+(ElenaC)-[:FRIENDS]->(LyndaT), (ElenaC)-[:FRIENDS]->(DavidM),
+(LyndaM)-[:FRIENDS]->(ElenaC), (LyndaM)-[:FRIENDS]->(DavidM),
+(DianaC)-[:FRIENDS]->(DavidT)
+
+//get node by id
+MATCH (n1)-[r]->(n2)
+WHERE n1.name CONTAINS 'Ioana' OR n2.name CONTAINS 'Ioana'
+RETURN r, n1, n2
+
+MATCH (n1)-[r]->(n2)
+WHERE n1.name CONTAINS 'Diana' OR n2.name CONTAINS 'Diana'
+RETURN r, n1, n2
+
+
+//get some data
+MATCH (n1)-[r]->(n2) RETURN r, n1, n2

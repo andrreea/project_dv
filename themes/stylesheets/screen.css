@@ -3183,19 +3183,26 @@ md-sidenav .title {
 /* line 1, ../sass/_base.scss */
 html, body {
   margin: 0;
-  margin-top: 30px;
+  margin-top: 15px;
   padding: 0;
   overflow: hidden;
   font-family: "Roboto Light", "HelveticaNeue", sans-serif;
+  background-color: whitesmoke;
 }
 
-/* line 9, ../sass/_base.scss */
+/* line 10, ../sass/_base.scss */
 body {
   font-size: 0.85em;
 }
-/* line 10, ../sass/_base.scss */
+/* line 11, ../sass/_base.scss */
 body.hide-scroll-bar {
   overflow: hidden;
+}
+/* line 14, ../sass/_base.scss */
+body .title {
+  color: black;
+  font-size: 16px !important;
+  text-decoration: none !important;
 }
 
 /* line 3, ../../src/core/visualisations/visualisation.scss */
