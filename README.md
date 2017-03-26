@@ -1,7 +1,7 @@
 Prerequisite
 ------------------------------------------------------------------------
-*node (include npm)
-*ruby/ compass http://compass-style.org/install/
+* node (include npm)
+* ruby/ compass http://compass-style.org/install/
 
 
 Instalare dependente si start compiling
