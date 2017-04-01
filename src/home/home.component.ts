@@ -13,24 +13,17 @@ export class HomeComponent {
     @ViewChild("right") rightMenuComponent: any;
 
     networkData = {nodes: [], links: []};
-
     chartTabActive : boolean = false;
-    private myData;
     private subscription: Subscription;
 
     constructor(private store: HomeStore,
                 private actions: HomeActions){
 
-        // this.actions.getDataForGraph();
-
         this.subscription = store.subscribe(event => {
 
             switch (event){
                 case CH_AVAILABLE:
-                    this.myData = store.getSomeData();
-                    console.log(this.myData);
-
-                    this.networkData = this.formatNetwork(this.myData);
+                    this.networkData = store.getSomeData();
 
                     break;
             }
@@ -129,19 +122,6 @@ export class HomeComponent {
     showNodeContextMenu(data){
         console.log(data);
     }
-
-    private formatNetwork(rawData) {
-        return {
-            nodes: rawData.nodes,
-            links: rawData.links.map(e => {
-                e.source = e.srcId;
-                e.target = e.dstId;
-
-                return e;
-            })
-        }
-    }
-
 
 
 }

@@ -133,6 +133,7 @@ export class NodeGenerator extends EventEmitter<DispatcherPayload>{
     }
 
     updateColor(colorScheme, colorVarname) {
+        console.log(colorVarname);
         this.nodeGroup.select("circle").attr("style", d => {return 'fill: ' + colorScheme(d[colorVarname]) + ';';});
     }
 

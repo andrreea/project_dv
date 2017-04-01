@@ -33,11 +33,15 @@ export class ForceSimulation extends EventEmitter<DispatcherPayload> {
     }
 
     setData(networkData: Network) {
-        this.simulation.nodes(networkData.nodes);
-        this.forceLink.links(networkData.links);
+        if (this.simulation) {
+            this.simulation.nodes(networkData.nodes);
+            this.forceLink.links(networkData.links);
 
-        this.simulation.alpha(ALPHA);
-        this.simulation.restart();
+            if (networkData.nodes.length >0 ) {
+                this.simulation.alpha(ALPHA);
+                this.simulation.restart();
+            }
+        }
     }
 
     tick() {

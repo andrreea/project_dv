@@ -32,12 +32,13 @@ export class NetworkComponent implements OnInit {
 
 
     private subscription: Subscription;
+    private displayGraph = {nodes:[], links:[]};
 
     constructor(
         @Inject(LinkGenerator) private linkGenerator,
-                @Inject(ElementRef) private element,
-                @Inject(NodeGenerator) private nodeGenerator,
-                @Inject(ForceSimulation) private simulation) {
+        @Inject(ElementRef) private element,
+        @Inject(NodeGenerator) private nodeGenerator,
+        @Inject(ForceSimulation) private simulation) {
     }
 
     ngOnInit() {
@@ -87,27 +88,72 @@ export class NetworkComponent implements OnInit {
         let radiusValue = (changes.radiusValue || {});
         let networkData = (changes.networkData || {});
 
-        if (this.networkData) {
-            if (networkData.currentValue !== networkData.previousValue) {
-                this.setData(this.networkData);
+        if (changes.networkData) {
+            if (networkData.currentValue.nodes && networkData.previousValue.nodes) {
+                this.displayGraph.nodes = networkData.currentValue.nodes.map(node => {
+                    return this.displayGraph.nodes.find( (previousNode) => {
+                            return previousNode.id === node.id;
+                        }) || Object.assign({},node)
+                });
+
+                this.displayGraph.links = networkData.currentValue.links.map(l => this.formatLinks(Object.assign({},l), this.displayGraph.nodes));
+                this.setData(this.displayGraph);
+
+            } else {
+                //deep copy
+                this.displayGraph.nodes = this.networkData.nodes.map(n => Object.assign({},n));
+                // console.log(this.displayGraph.nodes);
+                this.displayGraph.links = this.networkData.links.map(l => this.formatLinks(Object.assign({},l), this.displayGraph.nodes));
+
+                this.setData(this.displayGraph);
             }
+
+        }
+
+
+        if (colorValue) {
             if (colorValue.currentValue !== colorValue.previousValue) {
-                let domainColor = _.pluck(this.networkData.nodes, colorValue.currentValue);
+                let domainColor = _.pluck(this.displayGraph.nodes, colorValue.currentValue);
                 let color = d3.scaleOrdinal(d3.schemeCategory10).domain(domainColor);
+
                 this.nodeGenerator.updateColor(color, colorValue.currentValue);
-
-            }
-
-            if (radiusValue.currentValue !== radiusValue.previousValue) {
-                let domainRadius = _.pluck(this.networkData.nodes, radiusValue.currentValue);
-                let radiusScale = d3.scaleOrdinal().range([5,10]).domain(domainRadius);
-                // console.log(radiusValue);
-
-                this.nodeGenerator.updateRadius(radiusScale, radiusValue.currentValue);
-
             }
         }
 
+        if (radiusValue) {
+            if (radiusValue.currentValue !== radiusValue.previousValue) {
+                let domainRadius = _.pluck(this.displayGraph.nodes, radiusValue.currentValue);
+                let radiusScale = d3.scaleOrdinal().range([5,10]).domain(domainRadius);
+
+                this.nodeGenerator.updateRadius(radiusScale, radiusValue.currentValue);
+            }
+        }
+
+
+
+    }
+
+    private formatLinks(link, nodes) {
+        let graphLink = Object.assign({}, link);
+        graphLink.source = null;
+        graphLink.target = null;
+
+        graphLink.source = nodes.find((node) => node.id===graphLink.srcId);
+        graphLink.target = nodes.find((node) => node.id===graphLink.dstId);
+
+        return graphLink;
+    }
+
+    private formatNetwork(rawData) {
+        return {
+            nodes: rawData.nodes,
+            links: rawData.links.map(e => {
+                e.source = e.srcId;
+                e.target = e.dstId;
+
+                return e;
+            })
+        }
     }
 
     private setData(networkData) {
