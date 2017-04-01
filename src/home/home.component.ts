@@ -46,6 +46,20 @@ export class HomeComponent {
 
     inputData = [
         {
+            "name": "France",
+            "value": 3
+        },
+        {
+            "name": "Romania",
+            "value": 2
+        },
+        {
+            "name": "Germany",
+            "value": 1
+        }
+    ];
+    inputData2 = [
+        {
             "name": "Germany",
             "value": 8940000
         },

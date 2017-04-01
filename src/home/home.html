@@ -46,7 +46,7 @@
 
                                 <md-card>
 
-                                    <div class="title">Color</div>
+                                    <div class="title">Node Color</div>
 
                                     <md-button-toggle-group #groupColor="mdButtonToggleGroup">
                                         <md-button-toggle value="label">
@@ -59,7 +59,7 @@
                                             Gender
                                         </md-button-toggle>
                                         <md-button-toggle value="favoriteFruit">
-                                            Fruit
+                                            Favorite Fruit
                                         </md-button-toggle>
                                         <md-button-toggle value="justify" disabled>
                                             Country
@@ -67,20 +67,25 @@
                                     </md-button-toggle-group>
                                     <!--<div class="example-selected-value">Selected value: {{groupColor.value}}</div>-->
 
-                                    <div class="title">Color</div>
-
+                                    <div class="title"style="margin-top: 10px;">Node Dimension</div>
                                     <md-button-toggle-group #groupRadius="mdButtonToggleGroup">
                                         <md-button-toggle value=""> Default
                                             <!--<md-icon>format_align_left</md-icon>-->
                                         </md-button-toggle>
                                         <md-button-toggle value="age"> Age
-                                            <!--<md-icon>format_align_left</md-icon>-->
                                         </md-button-toggle>
                                         <md-button-toggle value="friends"> Number Of Friends
                                         </md-button-toggle>
                                     </md-button-toggle-group>
                                     <!--<div class="example-selected-value">Selected value: {{groupRadius.value}}</div>-->
 
+                                    <div class="title"style="margin-top: 10px;">Link Width</div>
+                                    <md-button-toggle-group #groupWidth="mdButtonToggleGroup">
+                                        <md-button-toggle value=""> Default
+                                        </md-button-toggle>
+                                        <md-button-toggle value="age"> Years of Friendship
+                                        </md-button-toggle>
+                                    </md-button-toggle-group>
 
                                 </md-card>
                         </div>
