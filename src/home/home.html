@@ -21,7 +21,7 @@
 
 <section class="main-area">
     <md-sidenav-layout class="sidenav-layout" style="height:800px">
-        <md-sidenav #left [opened]="true" mode="side" style="width: 600px;">
+        <md-sidenav #left [opened]="true" mode="side" style="width: 500px;">
             <button md-icon-button (click)="left.close()" class="close">
                 <md-icon class="md2 md-icon material-icons"> cancel </md-icon>
             </button>
@@ -100,6 +100,8 @@
                             <charts [data]="inputData"
                                     [dataLine]="lineData">
                             </charts>
+                            <!--<charts [data]="inputData">-->
+                            <!--</charts>-->
 
                         </div>
 
@@ -120,7 +122,7 @@
             </div>
 
         </md-sidenav>
-        <div class="sidenav-content">
+        <div class="sidenav-content no-overflow">
             <button md-icon-button
                     *ngIf="!left.opened"
                     title ="Expand"
@@ -131,10 +133,33 @@
             <network [colorValue]="groupColor.value"
                      [radiusValue]="groupRadius.value"
                      [networkData]="networkData"
+                     (hoverOverNode)="hoverOverNodeHandler($event)"
+                     (selectedNodesChange)="updateNodesSelection($event)"
                      class="network-container">
             </network>
-
+            <!--<div class="graph-footer">-->
+                <!--<ul *ngIf="graphFooterDetails">-->
+                    <!--<li class="info-type">-->
+                        <!--<md-chip-list>-->
+                            <!--<md-chip> {{graphFooterTitle}}</md-chip>-->
+                        <!--</md-chip-list>-->
+                    <!--</li>-->
+                    <!--<li *ngFor="let details in graphFooterDetails">-->
+                        <!--<span class="title">{{details.label}}:</span> <span class="title">{{details.value}}</span>-->
+                    <!--</li>-->
+                <!--</ul>-->
+            <!--</div>-->
 
         </div>
     </md-sidenav-layout>
 </section>
+
+<!--<md-card role="menu" width="4" style="width:270px; background:white;" class="padding-all-0">-->
+    <!--<md-list class="padding-all-0">-->
+        <!--<md-list-item *ngFor="let option of nodeContextMenuOptions" class="padding-all-0">-->
+            <!--<button md-button (click)="nodeSelectionOperation(option.id)">-->
+
+            <!--</button>-->
+        <!--</md-list-item>-->
+    <!--</md-list>-->
+<!--</md-card>-->

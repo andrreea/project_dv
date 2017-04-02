@@ -19,3 +19,28 @@ body {
 
   font-size: 0.85em;
 }
+
+.no-overflow {
+  overflow: hidden;
+}
+
+.float-left {
+  float: left;
+}
+
+.pos-absolute {
+  position: absolute !important;
+}
+
+md-input-container {
+  width: 100%;
+}
+
+md-list-item .mat-list-item {
+  padding: 0px !important;
+  width: 100%;
+
+  &.mat-list-item-content {
+    padding: 0px !important;
+  }
+}

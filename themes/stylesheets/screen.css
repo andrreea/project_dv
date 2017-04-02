@@ -3205,6 +3205,36 @@ body .title {
   text-decoration: none !important;
 }
 
+/* line 23, ../sass/_base.scss */
+.no-overflow {
+  overflow: hidden;
+}
+
+/* line 27, ../sass/_base.scss */
+.float-left {
+  float: left;
+}
+
+/* line 31, ../sass/_base.scss */
+.pos-absolute {
+  position: absolute !important;
+}
+
+/* line 35, ../sass/_base.scss */
+md-input-container {
+  width: 100%;
+}
+
+/* line 39, ../sass/_base.scss */
+md-list-item .mat-list-item {
+  padding: 0px !important;
+  width: 100%;
+}
+/* line 43, ../sass/_base.scss */
+md-list-item .mat-list-item.mat-list-item-content {
+  padding: 0px !important;
+}
+
 /* line 3, ../../src/core/visualisations/visualisation.scss */
 .network-container {
   height: 100%;

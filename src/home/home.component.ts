@@ -16,6 +16,24 @@ export class HomeComponent {
     chartTabActive : boolean = false;
     private subscription: Subscription;
 
+    private selectedNodes = [];
+
+
+    inputData = [
+        {
+            "name": "France",
+            "value": 3
+        },
+        {
+            "name": "Romania",
+            "value": 2
+        },
+        {
+            "name": "Germany",
+            "value": 1
+        }
+    ];
+
     constructor(private store: HomeStore,
                 private actions: HomeActions){
 
@@ -44,34 +62,28 @@ export class HomeComponent {
         this.actions.getDataForGraph(searchTerm);
     }
 
-    inputData = [
-        {
-            "name": "France",
-            "value": 3
-        },
-        {
-            "name": "Romania",
-            "value": 2
-        },
-        {
-            "name": "Germany",
-            "value": 1
-        }
-    ];
-    inputData2 = [
-        {
-            "name": "Germany",
-            "value": 8940000
-        },
-        {
-            "name": "USA",
-            "value": 5000000
-        },
-        {
-            "name": "France",
-            "value": 7200000
-        }
-    ];
+
+    showLinkContextMenu(data){
+        console.log(data);
+    }
+
+    showNodeContextMenu(data){
+        console.log(data);
+    }
+
+
+    updateNodesSelection(selectedNodes){
+        console.log(selectedNodes);
+        this.selectedNodes = selectedNodes;
+    }
+
+    hoverOverNodeHandler(details) {
+        console.log(details);
+
+        // this.displayInfo(details);
+    }
+
+
 
     lineData = [
         {
@@ -127,15 +139,6 @@ export class HomeComponent {
 //
 //     networkData = this.formatNetwork(this.rawData);
 
-
-
-    showLinkContextMenu(data){
-        console.log(data);
-    }
-
-    showNodeContextMenu(data){
-        console.log(data);
-    }
 
 
 }
