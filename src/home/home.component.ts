@@ -14,8 +14,13 @@ export class HomeComponent {
 
     networkData = {nodes: [], links: []};
     chartTabActive : boolean = false;
-    private subscription: Subscription;
 
+    showFooter = false;
+    graphFooterTitle = "";
+    // graphFooterDetails = null;
+    graphFooterDetails = [{label: "Name", value: "123"}];
+
+    private subscription: Subscription;
     private selectedNodes = [];
 
 
@@ -79,10 +84,34 @@ export class HomeComponent {
 
     hoverOverNodeHandler(details) {
         console.log(details);
-
-        // this.displayInfo(details);
+        this.showFooter = true;
+        this.displayInfo(details);
     }
 
+    private displayInfo (details) {
+        let nodeDetails = details;
+        if (nodeDetails) {
+            this.graphFooterTitle = nodeDetails.label;
+            this.graphFooterDetails = this.getNodeDetails(nodeDetails);
+        }
+        // if (this.selectedNodes.length ===1 && details=== null){
+        //     nodeDetails = this.selectedNodes[0];
+        // }
+        //
+        // if (nodeDetails === null) {
+        //     this.graphFooterTitle = "";
+        //     this.graphFooterDetails = null;
+        // } else {
+        //     this.graphFooterTitle = nodeDetails.label;
+        //     this.graphFooterDetails = this.getNodeDetails(nodeDetails);
+        // }
+    }
+
+    private getNodeDetails (node) {
+        return [
+            {label: "Name", value: node.name}
+        ]
+    }
 
 
     lineData = [

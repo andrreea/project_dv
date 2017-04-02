@@ -44,50 +44,50 @@
                         <div>
                             <md-toolbar>Display</md-toolbar>
 
-                                <md-card>
+                            <md-card>
 
-                                    <div class="title">Node Color</div>
+                                <div class="title">Node Color</div>
 
-                                    <md-button-toggle-group #groupColor="mdButtonToggleGroup">
-                                        <md-button-toggle value="label">
-                                            Type
-                                        </md-button-toggle>
-                                        <md-button-toggle value="age">
-                                            Age
-                                        </md-button-toggle>
-                                        <md-button-toggle value="gender">
-                                            Gender
-                                        </md-button-toggle>
-                                        <md-button-toggle value="favoriteFruit">
-                                            Favorite Fruit
-                                        </md-button-toggle>
-                                        <md-button-toggle value="justify" disabled>
-                                            Country
-                                        </md-button-toggle>
-                                    </md-button-toggle-group>
-                                    <!--<div class="example-selected-value">Selected value: {{groupColor.value}}</div>-->
+                                <md-button-toggle-group #groupColor="mdButtonToggleGroup">
+                                    <md-button-toggle value="label">
+                                        Type
+                                    </md-button-toggle>
+                                    <md-button-toggle value="age">
+                                        Age
+                                    </md-button-toggle>
+                                    <md-button-toggle value="gender">
+                                        Gender
+                                    </md-button-toggle>
+                                    <md-button-toggle value="favoriteFruit">
+                                        Favorite Fruit
+                                    </md-button-toggle>
+                                    <md-button-toggle value="justify" disabled>
+                                        Country
+                                    </md-button-toggle>
+                                </md-button-toggle-group>
+                                <!--<div class="example-selected-value">Selected value: {{groupColor.value}}</div>-->
 
-                                    <div class="title"style="margin-top: 10px;">Node Dimension</div>
-                                    <md-button-toggle-group #groupRadius="mdButtonToggleGroup">
-                                        <md-button-toggle value=""> Default
-                                            <!--<md-icon>format_align_left</md-icon>-->
-                                        </md-button-toggle>
-                                        <md-button-toggle value="age"> Age
-                                        </md-button-toggle>
-                                        <md-button-toggle value="friends"> Number Of Friends
-                                        </md-button-toggle>
-                                    </md-button-toggle-group>
-                                    <!--<div class="example-selected-value">Selected value: {{groupRadius.value}}</div>-->
+                                <div class="title"style="margin-top: 10px;">Node Dimension</div>
+                                <md-button-toggle-group #groupRadius="mdButtonToggleGroup">
+                                    <md-button-toggle value=""> Default
+                                        <!--<md-icon>format_align_left</md-icon>-->
+                                    </md-button-toggle>
+                                    <md-button-toggle value="age"> Age
+                                    </md-button-toggle>
+                                    <md-button-toggle value="friends"> Number Of Friends
+                                    </md-button-toggle>
+                                </md-button-toggle-group>
+                                <!--<div class="example-selected-value">Selected value: {{groupRadius.value}}</div>-->
 
-                                    <div class="title"style="margin-top: 10px;">Link Width</div>
-                                    <md-button-toggle-group #groupWidth="mdButtonToggleGroup">
-                                        <md-button-toggle value=""> Default
-                                        </md-button-toggle>
-                                        <md-button-toggle value="age"> Years of Friendship
-                                        </md-button-toggle>
-                                    </md-button-toggle-group>
+                                <div class="title"style="margin-top: 10px;">Link Width</div>
+                                <md-button-toggle-group #groupWidth="mdButtonToggleGroup">
+                                    <md-button-toggle value=""> Default
+                                    </md-button-toggle>
+                                    <md-button-toggle value="age"> Years of Friendship
+                                    </md-button-toggle>
+                                </md-button-toggle-group>
 
-                                </md-card>
+                            </md-card>
                         </div>
 
 
@@ -137,29 +137,33 @@
                      (selectedNodesChange)="updateNodesSelection($event)"
                      class="network-container">
             </network>
-            <!--<div class="graph-footer">-->
+            <div class="graph-footer">
+                <ul *ngIf="showFooter">
                 <!--<ul *ngIf="graphFooterDetails">-->
-                    <!--<li class="info-type">-->
-                        <!--<md-chip-list>-->
-                            <!--<md-chip> {{graphFooterTitle}}</md-chip>-->
-                        <!--</md-chip-list>-->
-                    <!--</li>-->
+                    <li class="info-type">
+                        <md-chip-list>
+                            <md-chip> {{graphFooterTitle}}</md-chip>
+                        </md-chip-list>
+                    </li>
+                    <li>
+                        <span class="title">{{graphFooterDetails[0].label}}:</span> <span class="title">{{graphFooterDetails[0].value}}</span>
+                    </li>
                     <!--<li *ngFor="let details in graphFooterDetails">-->
                         <!--<span class="title">{{details.label}}:</span> <span class="title">{{details.value}}</span>-->
                     <!--</li>-->
-                <!--</ul>-->
-            <!--</div>-->
+                </ul>
+            </div>
 
         </div>
     </md-sidenav-layout>
 </section>
 
 <!--<md-card role="menu" width="4" style="width:270px; background:white;" class="padding-all-0">-->
-    <!--<md-list class="padding-all-0">-->
-        <!--<md-list-item *ngFor="let option of nodeContextMenuOptions" class="padding-all-0">-->
-            <!--<button md-button (click)="nodeSelectionOperation(option.id)">-->
+<!--<md-list class="padding-all-0">-->
+<!--<md-list-item *ngFor="let option of nodeContextMenuOptions" class="padding-all-0">-->
+<!--<button md-button (click)="nodeSelectionOperation(option.id)">-->
 
-            <!--</button>-->
-        <!--</md-list-item>-->
-    <!--</md-list>-->
+<!--</button>-->
+<!--</md-list-item>-->
+<!--</md-list>-->
 <!--</md-card>-->

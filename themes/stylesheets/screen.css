@@ -3235,6 +3235,46 @@ md-list-item .mat-list-item.mat-list-item-content {
   padding: 0px !important;
 }
 
+/* line 1, ../sass/network.scss */
+.sidenav-content {
+  overflow-y: hidden !important;
+  display: block;
+  height: 100%;
+}
+
+/* line 7, ../sass/network.scss */
+.graph-footer {
+  position: absolute;
+  bottom: 10px;
+  right: 0;
+  left: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+  display: flex;
+  flex-direction: row;
+  background: white;
+}
+/* line 17, ../sass/network.scss */
+.graph-footer ul {
+  margin: 5px 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+}
+/* line 25, ../sass/network.scss */
+.graph-footer ul li {
+  flex-grow: 5;
+}
+/* line 28, ../sass/network.scss */
+.graph-footer ul li.info-type {
+  flex-grow: 1;
+}
+/* line 32, ../sass/network.scss */
+.graph-footer ul li .title {
+  font-weight: bold;
+}
+
 /* line 3, ../../src/core/visualisations/visualisation.scss */
 .network-container {
   height: 100%;
