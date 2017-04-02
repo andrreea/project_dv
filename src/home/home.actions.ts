@@ -13,15 +13,16 @@ export class HomeActions{
     }
 
     getDataForGraph(name){
-        // this.get(this.config.urls.someDataForChart).subscribe( data => {
-
-
         this.get(this.config.urls.getGraphForSearchTerm(name)).subscribe( data => {
             dispatcher.emit({
                 type: CH_FETCHED,
                 data
             })
         })
+    }
+
+    getShortestPath(nodeSource, nodeTarget){
+
     }
 
     private get(path){

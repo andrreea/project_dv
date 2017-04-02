@@ -135,6 +135,7 @@
                      [networkData]="networkData"
                      (hoverOverNode)="hoverOverNodeHandler($event)"
                      (selectedNodesChange)="updateNodesSelection($event)"
+                     (nodeContextMenuShow)="showNodeContextMenu($event)"
                      class="network-container">
             </network>
             <div class="graph-footer">
@@ -158,12 +159,17 @@
     </md-sidenav-layout>
 </section>
 
-<!--<md-card role="menu" width="4" style="width:270px; background:white;" class="padding-all-0">-->
-<!--<md-list class="padding-all-0">-->
-<!--<md-list-item *ngFor="let option of nodeContextMenuOptions" class="padding-all-0">-->
-<!--<button md-button (click)="nodeSelectionOperation(option.id)">-->
-
-<!--</button>-->
-<!--</md-list-item>-->
-<!--</md-list>-->
-<!--</md-card>-->
+<!--<md-card role="menu" width="4" [ngStyle]="nodeContextMenuPosition" class="padding-all-0">-->
+<!--[ngStyle]="{'width':'270px', 'background':'white', 'position':'fixed', 'left': nodeContextMenuPositionX+'px', 'top': nodeContextMenuPositionY+'px'"-->
+<!--[ngStyle]="{'color':'red', 'font-size': fontSize+'px'}"-->
+<md-card role="menu" width="4" *ngIf="!hideNodeContextMenu"
+         [ngStyle]="{'width':'270px', 'background':'white', 'position':'fixed', 'left': nodeContextMenuPositionX+'px', 'top': nodeContextMenuPositionY+'px'}"
+         class="padding-all-0">
+<md-list class="padding-all-0">
+<md-list-item *ngFor="let option of nodeContextMenuOptions" class="padding-all-0">
+<button md-button (click)="nodeSelectionOperation(option.id)">
+        {{option.label}}
+</button>
+</md-list-item>
+</md-list>
+</md-card>

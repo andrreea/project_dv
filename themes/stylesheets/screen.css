@@ -3235,6 +3235,11 @@ md-list-item .mat-list-item.mat-list-item-content {
   padding: 0px !important;
 }
 
+/* line 48, ../sass/_base.scss */
+.padding-all-0 {
+  padding: 0px;
+}
+
 /* line 1, ../sass/network.scss */
 .sidenav-content {
   overflow-y: hidden !important;

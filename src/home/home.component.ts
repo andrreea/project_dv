@@ -4,6 +4,11 @@ import {HomeStore, CH_AVAILABLE} from "./home.store";
 import {Subscription} from "rxjs";
 // import {MdDialog, MdDialogConfig, MdDialogRef} from "@angular/material";
 
+export enum CONTEXT_MENU_OPTIONS {
+    SHORTEST_PATH,
+    VIEW_DETAILS
+}
+
 @Component({
     selector: "home-app",
     templateUrl: "home.html"
@@ -14,6 +19,15 @@ export class HomeComponent {
 
     networkData = {nodes: [], links: []};
     chartTabActive : boolean = false;
+
+    hideNodeContextMenu = true;
+    currentContextMenuNodeSelected;
+    nodeContextMenuPosition;
+    nodeContextMenuPositionX = -100;
+    nodeContextMenuPositionY = -100;
+    nodeContextMenuOptions = [
+        { id: CONTEXT_MENU_OPTIONS.SHORTEST_PATH,  label: "Shortest Path"}
+    ];
 
     showFooter = false;
     graphFooterTitle = "";
@@ -74,16 +88,28 @@ export class HomeComponent {
 
     showNodeContextMenu(data){
         console.log(data);
+        this.hideNodeContextMenu = false;
+        this.currentContextMenuNodeSelected = data.data;
+        this.nodeContextMenuPositionX = data.position.x;
+        this.nodeContextMenuPositionY = data.position.y;
     }
 
+    nodeSelectionOperation(operation: CONTEXT_MENU_OPTIONS) {
+            switch (operation){
+                case CONTEXT_MENU_OPTIONS.SHORTEST_PATH:
+                    this.actions.getShortestPath(this.selectedNodes[0], this.selectedNodes[1]);
+                    this.hideNodeContextMenu = true;
+
+                    break;
+
+            }
+    }
 
     updateNodesSelection(selectedNodes){
-        console.log(selectedNodes);
         this.selectedNodes = selectedNodes;
     }
 
     hoverOverNodeHandler(details) {
-        console.log(details);
         this.showFooter = true;
         this.displayInfo(details);
     }
@@ -112,7 +138,6 @@ export class HomeComponent {
             {label: "Name", value: node.name}
         ]
     }
-
 
     lineData = [
         {
@@ -167,6 +192,17 @@ export class HomeComponent {
 // };
 //
 //     networkData = this.formatNetwork(this.rawData);
+
+    // width: 250px;
+    // background: white;
+    // /* height: 300px; */
+    // /* x: 10px; */
+    // /* y: 10px; */
+    // top: 20px;
+    // position: fixed;
+    // left: 285px;
+    // padding: 0px;
+    // height: 30px;
 
 
 
